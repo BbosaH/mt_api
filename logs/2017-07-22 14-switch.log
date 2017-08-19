@@ -1,0 +1,120 @@
+2017-07-22 14:00:09 ---- New Request ----
+2017-07-22 14:00:09 Controller : Transfers
+2017-07-22 14:00:09 Method : createexpenseAction
+2017-07-22 14:00:09 Controller File : controllers/Transfers.class.php, Exists
+2017-07-22 14:00:09 Class constructed
+2017-07-22 14:00:09 Class constructed
+2017-07-22 14:00:09 UserID : 2
+SessionId : SE0BKSrR0HL6S2wh88kj0ui0IvJtIYFS
+Currency ID : 5
+Reason : Transport to town 1200 and Airtime 500
+Amount : 1700
+2017-07-22 14:00:09 SELECT SQL : SELECT sessionId,branchId FROM users WHERE  id = '2'  
+2017-07-22 14:00:09 INSERT SQL : INSERT INTO expenses  (ts,amount,currencyId,description,createdBy,branchId)  VALUES(NOW(),'1700','5','Transport to town 1200 and Airtime 500','2','12')
+2017-07-22 14:00:09 SELECT SQL : SELECT id FROM accounts WHERE  branchId = '12' AND currency_id = '5'  
+2017-07-22 14:00:09 INSERT SQL : INSERT INTO account_transfers  (ts,type,amount,charge,fromId,toId,transferRef,userId,amountAfterXchange,amountB4Xchange)  VALUES(NOW(),'transfer','1700','0','36','0','0','2','1700','1700')
+2017-07-22 14:00:09 Balance Update Params :
+Branch Id : 12
+Account ID : 36
+Amount : -1700
+2017-07-22 14:00:09 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '36'  
+2017-07-22 14:00:09 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '36' AND date = '2017-07-22'  
+2017-07-22 14:00:09 UPDATE SQL : UPDATE balances SET closingBalance = '1295' WHERE  branchId = '12' AND accountId = '36' AND date = '2017-07-22' 
+2017-07-22 14:00:09 Balance Update Status 2:1
+ 2017-07-22 14:00:09 Response : {"success":1,"data":"You have successfuly added an expense"}
+2017-07-22 14:00:35 ---- New Request ----
+2017-07-22 14:00:35 Controller : Transfers
+2017-07-22 14:00:35 Method : getallaccountbalancesAction
+2017-07-22 14:00:35 Controller File : controllers/Transfers.class.php, Exists
+2017-07-22 14:00:35 Class constructed
+2017-07-22 14:00:35 Class constructed
+2017-07-22 14:00:35 UserID : 2
+SessionId : SE0BKSrR0HL6S2wh88kj0ui0IvJtIYFS
+Branch ID : 12
+2017-07-22 14:00:35 SELECT SQL : SELECT sessionId FROM users WHERE  id = '2'  
+2017-07-22 14:00:35 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '12'  
+2017-07-22 14:00:35 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-22 14:00:35 Response : {"success":1,"data":[{"name":"NAIROBI-USD Account","id":"33","balance":49150.004786979},{"name":"NAIROBI-KSH Account","id":"36","balance":-406}],"branchName":"NAIROBI"}
+2017-07-22 14:00:39 ---- New Request ----
+2017-07-22 14:00:39 Controller : Transfers
+2017-07-22 14:00:39 Method : getbalancesAction
+2017-07-22 14:00:39 Controller File : controllers/Transfers.class.php, Exists
+2017-07-22 14:00:39 Class constructed
+2017-07-22 14:00:39 Class constructed
+2017-07-22 14:00:39 UserID : 2
+SessionId : SE0BKSrR0HL6S2wh88kj0ui0IvJtIYFS
+Branch ID : 
+Date : 
+2017-07-22 14:00:39 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '2'  
+2017-07-22 14:00:39 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-22' AND branchId = '12'  
+2017-07-22 14:00:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '33'  
+2017-07-22 14:00:39 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-22 14:00:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '36'  
+2017-07-22 14:00:39 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-22 14:00:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '0'  
+2017-07-22 14:00:39 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-22 14:00:39 Response : {"success":1,"data":[{"closingBalance":"49150","openingBalance":"13600","accountId":"33","branchId":"12","date":"2017-07-22","accountName":"NAIROBI-USD Account","branchName":"NAIROBI"},{"closingBalance":"1295","openingBalance":"7470","accountId":"36","branchId":"12","date":"2017-07-22","accountName":"NAIROBI-KSH Account","branchName":"NAIROBI"},{"closingBalance":"1700","openingBalance":"1700","accountId":"0","branchId":"12","date":"2017-07-22","accountName":null,"branchName":"NAIROBI"}]}
+2017-07-22 14:01:57 ---- New Request ----
+2017-07-22 14:01:57 Controller : Transfers
+2017-07-22 14:01:57 Method : createexpenseAction
+2017-07-22 14:01:57 Controller File : controllers/Transfers.class.php, Exists
+2017-07-22 14:01:57 Class constructed
+2017-07-22 14:01:57 Class constructed
+2017-07-22 14:01:57 UserID : 2
+SessionId : SE0BKSrR0HL6S2wh88kj0ui0IvJtIYFS
+Currency ID : 2
+Reason : Paid out to Liu on behalf of Mr. Ren
+Amount : 49050
+2017-07-22 14:01:57 SELECT SQL : SELECT sessionId,branchId FROM users WHERE  id = '2'  
+2017-07-22 14:01:57 INSERT SQL : INSERT INTO expenses  (ts,amount,currencyId,description,createdBy,branchId)  VALUES(NOW(),'49050','2','Paid out to Liu on behalf of Mr. Ren','2','12')
+2017-07-22 14:01:57 SELECT SQL : SELECT id FROM accounts WHERE  branchId = '12' AND currency_id = '2'  
+2017-07-22 14:01:57 INSERT SQL : INSERT INTO account_transfers  (ts,type,amount,charge,fromId,toId,transferRef,userId,amountAfterXchange,amountB4Xchange)  VALUES(NOW(),'transfer','49050','0','33','0','0','2','49050','49050')
+2017-07-22 14:01:57 Balance Update Params :
+Branch Id : 12
+Account ID : 33
+Amount : -49050
+2017-07-22 14:01:57 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '33'  
+2017-07-22 14:01:57 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '33' AND date = '2017-07-22'  
+2017-07-22 14:01:57 UPDATE SQL : UPDATE balances SET closingBalance = '100' WHERE  branchId = '12' AND accountId = '33' AND date = '2017-07-22' 
+2017-07-22 14:01:57 Balance Update Status 2:1
+ 2017-07-22 14:01:57 Response : {"success":1,"data":"You have successfuly added an expense"}
+2017-07-22 14:02:20 ---- New Request ----
+2017-07-22 14:02:20 Controller : Transfers
+2017-07-22 14:02:20 Method : getallaccountbalancesAction
+2017-07-22 14:02:20 Controller File : controllers/Transfers.class.php, Exists
+2017-07-22 14:02:20 Class constructed
+2017-07-22 14:02:20 Class constructed
+2017-07-22 14:02:20 UserID : 2
+SessionId : SE0BKSrR0HL6S2wh88kj0ui0IvJtIYFS
+Branch ID : 12
+2017-07-22 14:02:20 SELECT SQL : SELECT sessionId FROM users WHERE  id = '2'  
+2017-07-22 14:02:20 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '12'  
+2017-07-22 14:02:20 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-22 14:02:20 Response : {"success":1,"data":[{"name":"NAIROBI-USD Account","id":"33","balance":100.00478697941},{"name":"NAIROBI-KSH Account","id":"36","balance":-406}],"branchName":"NAIROBI"}
+2017-07-22 14:02:34 ---- New Request ----
+2017-07-22 14:02:34 Controller : Transfers
+2017-07-22 14:02:34 Method : getbalancesAction
+2017-07-22 14:02:34 Controller File : controllers/Transfers.class.php, Exists
+2017-07-22 14:02:34 Class constructed
+2017-07-22 14:02:34 Class constructed
+2017-07-22 14:02:34 UserID : 2
+SessionId : SE0BKSrR0HL6S2wh88kj0ui0IvJtIYFS
+Branch ID : 
+Date : 
+2017-07-22 14:02:34 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '2'  
+2017-07-22 14:02:34 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-22' AND branchId = '12'  
+2017-07-22 14:02:34 SELECT SQL : SELECT name FROM accounts WHERE  id = '33'  
+2017-07-22 14:02:34 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-22 14:02:34 SELECT SQL : SELECT name FROM accounts WHERE  id = '36'  
+2017-07-22 14:02:34 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-22 14:02:34 SELECT SQL : SELECT name FROM accounts WHERE  id = '0'  
+2017-07-22 14:02:34 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-22 14:02:34 Response : {"success":1,"data":[{"closingBalance":"100","openingBalance":"13600","accountId":"33","branchId":"12","date":"2017-07-22","accountName":"NAIROBI-USD Account","branchName":"NAIROBI"},{"closingBalance":"1295","openingBalance":"7470","accountId":"36","branchId":"12","date":"2017-07-22","accountName":"NAIROBI-KSH Account","branchName":"NAIROBI"},{"closingBalance":"1700","openingBalance":"1700","accountId":"0","branchId":"12","date":"2017-07-22","accountName":null,"branchName":"NAIROBI"}]}
+2017-07-22 14:02:48 ---- New Request ----
+2017-07-22 14:02:48 Controller : Users
+2017-07-22 14:02:48 Method : logoutAction
+2017-07-22 14:02:48 Controller File : controllers/Users.class.php, Exists
+2017-07-22 14:02:48 Class constructed
+2017-07-22 14:02:48 Logout Params ;Session ID :SE0BKSrR0HL6S2wh88kj0ui0IvJtIYFS\User ID : 2
+2017-07-22 14:02:48 UPDATE SQL : UPDATE users SET sessionId = '',ipAddress = '154.76.127.59' WHERE  id = '2' 
+2017-07-22 14:02:48 Response : {"success":1}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mtransfer>
+	<app>
+		<name>MTransfer</name>
+		<version>1.0</version>
+	</app>
+	<server>
+		<displayerrors>0</displayerrors>
+		<timezone>Africa/Kampala</timezone>
+		<maxlifetime>12*60*60</maxlifetime>
+		<timelimit>0</timelimit>
+	</server>
+	<db>
+		<host>localhost</host>
+		<name>awiegroup_com_money_transfer</name>
+		<user>root</user>
+		<password></password>
+	</db>
+</mtransfer>

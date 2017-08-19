@@ -1,0 +1,45 @@
+2017-07-19 13:11:31 ---- New Request ----
+2017-07-19 13:11:31 Controller : Reports
+2017-07-19 13:11:31 Method : gettransferlogsAction
+2017-07-19 13:11:31 Controller File : controllers/Reports.class.php, Exists
+2017-07-19 13:11:31 Class constructed
+2017-07-19 13:11:31 Class constructed
+2017-07-19 13:11:31 UserID : 2
+SessionId : 4dzfFaUcFPAVwphRMyoHJeSU6XCEzBKh
+Branch ID : 12
+Date : 
+Account ID : 
+2017-07-19 13:11:31 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '2'  
+2017-07-19 13:11:31 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '12'  OR toBranch = '12'  ORDER BY ts DESC LIMIT 20
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-19 13:11:31 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-19 13:11:31 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 13:11:31 Response : {"success":1,"branchName":"NAIROBI","data":[{"id":"5","fromBranch":"12","toBranch":"0","amount":"1000","currency":"RMB","charge":null,"transferRef":"0120525","userIdSource":"2","userIdDestination":null,"ts":"2017-07-19 09:52:58","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"Lu","senderPhone":"+254721472501","senderEmail":"","receiverFname":"Hong","receiverSurname":"Xian","receiverPhone":"+254721472501","receiverAccountNumber":"6226901405767348","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":null,"agentSource":"dorah","agentDestination":null,"destinationCountry":null},{"id":"4","fromBranch":"12","toBranch":"0","amount":"208660","currency":"RMB","charge":null,"transferRef":"0120524","userIdSource":"2","userIdDestination":null,"ts":"2017-07-19 09:45:18","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"Lu","senderPhone":"+254721472501","senderEmail":"","receiverFname":"Xian","receiverSurname":"Hong","receiverPhone":"+254721472501","receiverAccountNumber":"6226901405767348","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":null,"agentSource":"dorah","agentDestination":null,"destinationCountry":null},{"id":"3","fromBranch":"12","toBranch":"0","amount":"281340","currency":"RMB","charge":"1700","transferRef":"0120523","userIdSource":"2","userIdDestination":null,"ts":"2017-07-19 09:24:19","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"Lu","senderPhone":"+254721472501","senderEmail":"","receiverFname":"Hong","receiverSurname":"Xian","receiverPhone":"+254721472501","receiverAccountNumber":"6217004229998141175","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":null,"agentSource":"dorah","agentDestination":null,"destinationCountry":null},{"id":"2","fromBranch":"12","toBranch":"0","amount":"398300","currency":"RMB","charge":"1700","transferRef":"0120522","userIdSource":"2","userIdDestination":null,"ts":"2017-07-19 07:59:23","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"Wu","senderPhone":"+254713072228","senderEmail":"","receiverFname":"Shuai","receiverSurname":"Shao","receiverPhone":"+254713072228","receiverAccountNumber":"6217850100001899163","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":null,"agentSource":"dorah","agentDestination":null,"destinationCountry":null},{"id":"1","fromBranch":"12","toBranch":"0","amount":"2657100","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":null,"ts":"2017-07-19 07:33:59","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"Vincent","senderPhone":"+254731325666","senderEmail":"","receiverFname":"Xiong","receiverSurname":"Tao","receiverPhone":"+254731325666","receiverAccountNumber":"6222022319000895880","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":null,"agentSource":"dorah","agentDestination":null,"destinationCountry":null}]}

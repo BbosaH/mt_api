@@ -1,0 +1,75 @@
+2017-07-12 14:08:53 ---- New Request ----
+2017-07-12 14:08:53 Controller : Transfers
+2017-07-12 14:08:53 Method : getbalancesAction
+2017-07-12 14:08:53 Controller File : controllers/Transfers.class.php, Exists
+2017-07-12 14:08:53 Class constructed
+2017-07-12 14:08:53 Class constructed
+2017-07-12 14:08:53 UserID : 3
+SessionId : yNVuLq0pY4eTzwRPCB1MRQruwViIhpzR
+Branch ID : 6
+Date : 
+2017-07-12 14:08:53 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-12 14:08:53 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-12' AND branchId = '6'  
+2017-07-12 14:08:53 SELECT SQL : SELECT name FROM accounts WHERE  id = '21'  
+2017-07-12 14:08:53 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-12 14:08:53 SELECT SQL : SELECT name FROM accounts WHERE  id = '23'  
+2017-07-12 14:08:53 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-12 14:08:53 Response : {"success":1,"data":[{"closingBalance":"162880","openingBalance":"162880","accountId":"21","branchId":"6","date":"2017-07-12","accountName":"OASIS MALL-USD Account","branchName":"OASIS MALL"},{"closingBalance":"111321519","openingBalance":"111321519","accountId":"23","branchId":"6","date":"2017-07-12","accountName":"OASIS MALL-UGX Account","branchName":"OASIS MALL"}]}
+2017-07-12 14:08:57 ---- New Request ----
+2017-07-12 14:08:57 Controller : Transfers
+2017-07-12 14:08:57 Method : getbalancesAction
+2017-07-12 14:08:57 Controller File : controllers/Transfers.class.php, Exists
+2017-07-12 14:08:57 Class constructed
+2017-07-12 14:08:57 Class constructed
+2017-07-12 14:08:57 UserID : 3
+SessionId : yNVuLq0pY4eTzwRPCB1MRQruwViIhpzR
+Branch ID : 10
+Date : 
+2017-07-12 14:08:57 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-12 14:08:57 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-12' AND branchId = '10'  
+2017-07-12 14:08:57 Response : {"success":1,"data":[]}
+2017-07-12 14:08:59 ---- New Request ----
+2017-07-12 14:08:59 Controller : Transfers
+2017-07-12 14:08:59 Method : getbalancesAction
+2017-07-12 14:08:59 Controller File : controllers/Transfers.class.php, Exists
+2017-07-12 14:08:59 Class constructed
+2017-07-12 14:08:59 Class constructed
+2017-07-12 14:08:59 UserID : 3
+SessionId : yNVuLq0pY4eTzwRPCB1MRQruwViIhpzR
+Branch ID : 6
+Date : 
+2017-07-12 14:08:59 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-12 14:08:59 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-12' AND branchId = '6'  
+2017-07-12 14:08:59 SELECT SQL : SELECT name FROM accounts WHERE  id = '21'  
+2017-07-12 14:08:59 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-12 14:08:59 SELECT SQL : SELECT name FROM accounts WHERE  id = '23'  
+2017-07-12 14:08:59 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-12 14:08:59 Response : {"success":1,"data":[{"closingBalance":"162880","openingBalance":"162880","accountId":"21","branchId":"6","date":"2017-07-12","accountName":"OASIS MALL-USD Account","branchName":"OASIS MALL"},{"closingBalance":"111321519","openingBalance":"111321519","accountId":"23","branchId":"6","date":"2017-07-12","accountName":"OASIS MALL-UGX Account","branchName":"OASIS MALL"}]}
+2017-07-12 14:09:01 ---- New Request ----
+2017-07-12 14:09:01 Controller : Transfers
+2017-07-12 14:09:01 Method : getbalancesAction
+2017-07-12 14:09:01 Controller File : controllers/Transfers.class.php, Exists
+2017-07-12 14:09:01 Class constructed
+2017-07-12 14:09:01 Class constructed
+2017-07-12 14:09:01 UserID : 3
+SessionId : yNVuLq0pY4eTzwRPCB1MRQruwViIhpzR
+Branch ID : 11
+Date : 
+2017-07-12 14:09:01 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-12 14:09:01 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-12' AND branchId = '11'  
+2017-07-12 14:09:01 Response : {"success":1,"data":[]}
+2017-07-12 14:12:07 ---- New Request ----
+2017-07-12 14:12:07 Controller : Transfers
+2017-07-12 14:12:07 Method : getbalancesAction
+2017-07-12 14:12:07 Controller File : controllers/Transfers.class.php, Exists
+2017-07-12 14:12:07 Class constructed
+2017-07-12 14:12:07 Class constructed
+2017-07-12 14:12:07 UserID : 3
+SessionId : yNVuLq0pY4eTzwRPCB1MRQruwViIhpzR
+Branch ID : 5
+Date : 
+2017-07-12 14:12:07 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-12 14:12:07 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-12' AND branchId = '5'  
+2017-07-12 14:12:07 SELECT SQL : SELECT name FROM accounts WHERE  id = '16'  
+2017-07-12 14:12:07 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-12 14:12:07 Response : {"success":1,"data":[{"closingBalance":"339508","openingBalance":"339508","accountId":"16","branchId":"5","date":"2017-07-12","accountName":"KINSHASHA-USD Account","branchName":"KINSHASHA"}]}

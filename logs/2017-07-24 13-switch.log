@@ -1,0 +1,44 @@
+2017-07-24 13:25:49 ---- New Request ----
+2017-07-24 13:25:49 Controller : Users
+2017-07-24 13:25:49 Method : loginAction
+2017-07-24 13:25:49 Controller File : controllers/Users.class.php, Exists
+2017-07-24 13:25:49 Class constructed
+2017-07-24 13:25:49 Login Params ;Username :edwin
+Password : ******
+2017-07-24 13:25:49 SELECT SQL : SELECT id,firstName,surname,userName,userTypeId,sessionId,password,active,branchId FROM users WHERE  userName = 'edwin'  
+2017-07-24 13:25:49 SELECT SQL : SELECT name FROM branches WHERE  id = '7'  
+2017-07-24 13:25:49 UPDATE SQL : UPDATE users SET sessionId = 'VbmFPuiwp2mSE35IdVTsRWdjNCm3WHzg',ipAddress = '41.243.17.93' WHERE  id = '6' 
+2017-07-24 13:25:49 Response : {"success":1,"data":{"id":"6","firstName":"Edwin","surname":"Kakeeto","userName":"edwin","userTypeId":"3","sessionId":"VbmFPuiwp2mSE35IdVTsRWdjNCm3WHzg","branchId":"7","branchName":"GOMA"}}
+2017-07-24 13:27:40 ---- New Request ----
+2017-07-24 13:27:40 Controller : Users
+2017-07-24 13:27:40 Method : loginAction
+2017-07-24 13:27:40 Controller File : controllers/Users.class.php, Exists
+2017-07-24 13:27:40 Class constructed
+2017-07-24 13:27:40 Login Params ;Username :edwin
+Password : ******
+2017-07-24 13:27:40 SELECT SQL : SELECT id,firstName,surname,userName,userTypeId,sessionId,password,active,branchId FROM users WHERE  userName = 'edwin'  
+2017-07-24 13:27:41 SELECT SQL : SELECT name FROM branches WHERE  id = '7'  
+2017-07-24 13:27:41 UPDATE SQL : UPDATE users SET sessionId = 'BOOeUfgSdyUUqAx4pelq6UbTvUX5YYIt',ipAddress = '41.243.17.149' WHERE  id = '6' 
+2017-07-24 13:27:41 Response : {"success":1,"data":{"id":"6","firstName":"Edwin","surname":"Kakeeto","userName":"edwin","userTypeId":"3","sessionId":"BOOeUfgSdyUUqAx4pelq6UbTvUX5YYIt","branchId":"7","branchName":"GOMA"}}
+2017-07-24 13:27:41 ---- New Request ----
+2017-07-24 13:27:41 Controller : Users
+2017-07-24 13:27:41 Method : loginAction
+2017-07-24 13:27:41 Controller File : controllers/Users.class.php, Exists
+2017-07-24 13:27:41 Class constructed
+2017-07-24 13:27:41 Login Params ;Username :edwin
+Password : ******
+2017-07-24 13:27:41 SELECT SQL : SELECT id,firstName,surname,userName,userTypeId,sessionId,password,active,branchId FROM users WHERE  userName = 'edwin'  
+2017-07-24 13:27:41 SELECT SQL : SELECT name FROM branches WHERE  id = '7'  
+2017-07-24 13:27:41 UPDATE SQL : UPDATE users SET sessionId = 'SbfMzCChUaa8UU7bBR5LPegzsqWqJ8ym',ipAddress = '41.243.17.149' WHERE  id = '6' 
+2017-07-24 13:27:41 Response : {"success":1,"data":{"id":"6","firstName":"Edwin","surname":"Kakeeto","userName":"edwin","userTypeId":"3","sessionId":"SbfMzCChUaa8UU7bBR5LPegzsqWqJ8ym","branchId":"7","branchName":"GOMA"}}
+2017-07-24 13:27:42 ---- New Request ----
+2017-07-24 13:27:42 Controller : Users
+2017-07-24 13:27:42 Method : loginAction
+2017-07-24 13:27:42 Controller File : controllers/Users.class.php, Exists
+2017-07-24 13:27:42 Class constructed
+2017-07-24 13:27:42 Login Params ;Username :edwin
+Password : ******
+2017-07-24 13:27:42 SELECT SQL : SELECT id,firstName,surname,userName,userTypeId,sessionId,password,active,branchId FROM users WHERE  userName = 'edwin'  
+2017-07-24 13:27:42 SELECT SQL : SELECT name FROM branches WHERE  id = '7'  
+2017-07-24 13:27:42 UPDATE SQL : UPDATE users SET sessionId = 'F3PXc27GhsEu2kJVDAZQzVfOaSYacHVc',ipAddress = '41.243.17.242' WHERE  id = '6' 
+2017-07-24 13:27:42 Response : {"success":1,"data":{"id":"6","firstName":"Edwin","surname":"Kakeeto","userName":"edwin","userTypeId":"3","sessionId":"F3PXc27GhsEu2kJVDAZQzVfOaSYacHVc","branchId":"7","branchName":"GOMA"}}

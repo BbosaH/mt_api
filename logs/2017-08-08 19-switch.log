@@ -1,0 +1,52 @@
+2017-08-08 19:01:46 ---- New Request ----
+2017-08-08 19:01:46 Controller : Transfers
+2017-08-08 19:01:46 Method : getallaccountbalancesAction
+2017-08-08 19:01:46 Controller File : controllers/Transfers.class.php, Exists
+2017-08-08 19:01:46 Class constructed
+2017-08-08 19:01:46 Class constructed
+2017-08-08 19:01:46 UserID : 3
+SessionId : WiNxOwLcwJceNtmQCkOpXaqQsi8QaTjy
+Branch ID : 6
+2017-08-08 19:01:46 SELECT SQL : SELECT sessionId FROM users WHERE  id = '3'  
+2017-08-08 19:01:46 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '6'  
+2017-08-08 19:01:46 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-08-08 19:01:46 Response : {"success":1,"data":[{"name":"OASIS MALL-RMB Account","id":"20","balance":14000},{"name":"OASIS MALL-USD Account","id":"21","balance":1692245.4954955},{"name":"OASIS MALL-DIRHAM Account","id":"22","balance":-3000},{"name":"OASIS MALL-UGX Account","id":"23","balance":-7075200},{"name":"OASIS MALL-KSH Account","id":"24","balance":12300}],"branchName":"OASIS MALL"}
+2017-08-08 19:01:57 ---- New Request ----
+2017-08-08 19:01:57 Controller : Transfers
+2017-08-08 19:01:57 Method : getallaccountbalancesAction
+2017-08-08 19:01:57 Controller File : controllers/Transfers.class.php, Exists
+2017-08-08 19:01:57 Class constructed
+2017-08-08 19:01:57 Class constructed
+2017-08-08 19:01:57 UserID : 3
+SessionId : WiNxOwLcwJceNtmQCkOpXaqQsi8QaTjy
+Branch ID : 6
+2017-08-08 19:01:57 SELECT SQL : SELECT sessionId FROM users WHERE  id = '3'  
+2017-08-08 19:01:57 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '6'  
+2017-08-08 19:01:57 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-08-08 19:01:57 Response : {"success":1,"data":[{"name":"OASIS MALL-RMB Account","id":"20","balance":14000},{"name":"OASIS MALL-USD Account","id":"21","balance":1692245.4954955},{"name":"OASIS MALL-DIRHAM Account","id":"22","balance":-3000},{"name":"OASIS MALL-UGX Account","id":"23","balance":-7075200},{"name":"OASIS MALL-KSH Account","id":"24","balance":12300}],"branchName":"OASIS MALL"}
+2017-08-08 19:07:07 ---- New Request ----
+2017-08-08 19:07:07 Controller : Transfers
+2017-08-08 19:07:07 Method : getallaccountbalancesAction
+2017-08-08 19:07:07 Controller File : controllers/Transfers.class.php, Exists
+2017-08-08 19:07:07 Class constructed
+2017-08-08 19:07:07 Class constructed
+2017-08-08 19:07:07 UserID : 3
+SessionId : WiNxOwLcwJceNtmQCkOpXaqQsi8QaTjy
+Branch ID : 6
+2017-08-08 19:07:07 SELECT SQL : SELECT sessionId FROM users WHERE  id = '3'  
+2017-08-08 19:07:07 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '6'  
+2017-08-08 19:07:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-08-08 19:07:07 Response : {"success":1,"data":[{"name":"OASIS MALL-RMB Account","id":"20","balance":14000},{"name":"OASIS MALL-USD Account","id":"21","balance":1692245.4954955},{"name":"OASIS MALL-DIRHAM Account","id":"22","balance":-3000},{"name":"OASIS MALL-UGX Account","id":"23","balance":-7075200},{"name":"OASIS MALL-KSH Account","id":"24","balance":12300}],"branchName":"OASIS MALL"}
+2017-08-08 19:07:16 ---- New Request ----
+2017-08-08 19:07:16 Controller : Transfers
+2017-08-08 19:07:16 Method : getallaccountbalancesAction
+2017-08-08 19:07:16 Controller File : controllers/Transfers.class.php, Exists
+2017-08-08 19:07:16 Class constructed
+2017-08-08 19:07:16 Class constructed
+2017-08-08 19:07:16 UserID : 3
+SessionId : WiNxOwLcwJceNtmQCkOpXaqQsi8QaTjy
+Branch ID : 6
+2017-08-08 19:07:16 SELECT SQL : SELECT sessionId FROM users WHERE  id = '3'  
+2017-08-08 19:07:16 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '6'  
+2017-08-08 19:07:16 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-08-08 19:07:16 Response : {"success":1,"data":[{"name":"OASIS MALL-RMB Account","id":"20","balance":14000},{"name":"OASIS MALL-USD Account","id":"21","balance":1692245.4954955},{"name":"OASIS MALL-DIRHAM Account","id":"22","balance":-3000},{"name":"OASIS MALL-UGX Account","id":"23","balance":-7075200},{"name":"OASIS MALL-KSH Account","id":"24","balance":12300}],"branchName":"OASIS MALL"}

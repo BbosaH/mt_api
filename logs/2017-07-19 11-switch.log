@@ -1,0 +1,70 @@
+2017-07-19 11:00:06 ---- New Request ----
+2017-07-19 11:00:06 Controller : Transfers
+2017-07-19 11:00:06 Method : getbalancesAction
+2017-07-19 11:00:06 Controller File : controllers/Transfers.class.php, Exists
+2017-07-19 11:00:06 Class constructed
+2017-07-19 11:00:06 Class constructed
+2017-07-19 11:00:06 UserID : 2
+SessionId : r6RR2jAP7AyGmkesY322YbTLrEiXgSwx
+Branch ID : 
+Date : 
+2017-07-19 11:00:06 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '2'  
+2017-07-19 11:00:06 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-19' AND branchId = '12'  
+2017-07-19 11:00:06 SELECT SQL : SELECT name FROM accounts WHERE  id = '36'  
+2017-07-19 11:00:06 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 11:00:06 SELECT SQL : SELECT name FROM accounts WHERE  id = '33'  
+2017-07-19 11:00:06 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 11:00:06 Response : {"success":1,"data":[{"closingBalance":"3062748","openingBalance":"3948","accountId":"36","branchId":"12","date":"2017-07-19","accountName":"NAIROBI-KSH Account","branchName":"NAIROBI"},{"closingBalance":"79","openingBalance":"79","accountId":"33","branchId":"12","date":"2017-07-19","accountName":"NAIROBI-USD Account","branchName":"NAIROBI"}]}
+2017-07-19 11:00:13 ---- New Request ----
+2017-07-19 11:00:13 Controller : Transfers
+2017-07-19 11:00:13 Method : getallaccountbalancesAction
+2017-07-19 11:00:13 Controller File : controllers/Transfers.class.php, Exists
+2017-07-19 11:00:13 Class constructed
+2017-07-19 11:00:13 Class constructed
+2017-07-19 11:00:13 UserID : 2
+SessionId : r6RR2jAP7AyGmkesY322YbTLrEiXgSwx
+Branch ID : 12
+2017-07-19 11:00:13 SELECT SQL : SELECT sessionId FROM users WHERE  id = '2'  
+2017-07-19 11:00:13 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '12'  
+2017-07-19 11:00:13 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 11:00:13 Response : {"success":1,"data":[{"name":"NAIROBI-USD Account","id":"33","balance":79},{"name":"NAIROBI-KSH Account","id":"36","balance":3062748}],"branchName":"NAIROBI"}
+2017-07-19 11:00:19 ---- New Request ----
+2017-07-19 11:00:19 Controller : Reports
+2017-07-19 11:00:19 Method : gettransferlogsAction
+2017-07-19 11:00:19 Controller File : controllers/Reports.class.php, Exists
+2017-07-19 11:00:19 Class constructed
+2017-07-19 11:00:19 Class constructed
+2017-07-19 11:00:19 UserID : 2
+SessionId : r6RR2jAP7AyGmkesY322YbTLrEiXgSwx
+Branch ID : 12
+Date : 
+Account ID : 
+2017-07-19 11:00:19 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '2'  
+2017-07-19 11:00:19 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '12'  OR toBranch = '12'  ORDER BY ts DESC LIMIT 20
+2017-07-19 11:00:19 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 11:00:19 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-19 11:00:19 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-19 11:00:19 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-19 11:00:19 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-19 11:00:19 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-19 11:00:19 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 11:00:19 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-19 11:00:19 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-19 11:00:19 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-19 11:00:19 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-19 11:00:19 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-19 11:00:19 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 11:00:19 Response : {"success":1,"branchName":"NAIROBI","data":[{"id":"2","fromBranch":"12","toBranch":"0","amount":"398300","currency":"RMB","charge":"1700","transferRef":"0120522","userIdSource":"2","userIdDestination":null,"ts":"2017-07-19 07:59:23","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"Wu","senderPhone":"+254713072228","senderEmail":"","receiverFname":"Shuai","receiverSurname":"Shao","receiverPhone":"+254713072228","receiverAccountNumber":"6217850100001899163","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":null,"agentSource":"dorah","agentDestination":null,"destinationCountry":null},{"id":"1","fromBranch":"12","toBranch":"0","amount":"2657100","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":null,"ts":"2017-07-19 07:33:59","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"Vincent","senderPhone":"+254731325666","senderEmail":"","receiverFname":"Xiong","receiverSurname":"Tao","receiverPhone":"+254731325666","receiverAccountNumber":"6222022319000895880","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":null,"agentSource":"dorah","agentDestination":null,"destinationCountry":null}]}
+2017-07-19 11:00:37 ---- New Request ----
+2017-07-19 11:00:37 Controller : Transfers
+2017-07-19 11:00:37 Method : getallaccountbalancesAction
+2017-07-19 11:00:37 Controller File : controllers/Transfers.class.php, Exists
+2017-07-19 11:00:37 Class constructed
+2017-07-19 11:00:37 Class constructed
+2017-07-19 11:00:37 UserID : 2
+SessionId : r6RR2jAP7AyGmkesY322YbTLrEiXgSwx
+Branch ID : 12
+2017-07-19 11:00:37 SELECT SQL : SELECT sessionId FROM users WHERE  id = '2'  
+2017-07-19 11:00:37 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '12'  
+2017-07-19 11:00:37 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-19 11:00:37 Response : {"success":1,"data":[{"name":"NAIROBI-USD Account","id":"33","balance":79},{"name":"NAIROBI-KSH Account","id":"36","balance":3062748}],"branchName":"NAIROBI"}

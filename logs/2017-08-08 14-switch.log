@@ -1,0 +1,412 @@
+2017-08-08 14:00:34 ---- New Request ----
+2017-08-08 14:00:34 Controller : Users
+2017-08-08 14:00:34 Method : formsdetailsAction
+2017-08-08 14:00:34 Controller File : controllers/Users.class.php, Exists
+2017-08-08 14:00:34 Class constructed
+2017-08-08 14:00:34 Details Params :
+SessionID :ztc3IWoMugwQ6bHS2zBbFfIOkgv375yF
+User ID : 3
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM branches WHERE  active = '1'  
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM countries WHERE  active = '1'  
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM identification WHERE  active = '1'  
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM users WHERE  active = '1'  
+2017-08-08 14:00:34 SELECT SQL : SELECT id,name,branchId,currency_id FROM accounts WHERE  active = '1' AND type_id = '1'  
+2017-08-08 14:00:34 Balance Update Params :
+Branch Id : 5
+Account ID : 16
+Amount : 0
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM balances WHERE  branchId = '5' AND accountId = '16'  
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM balances WHERE  branchId = '5' AND accountId = '16' AND date = '2017-08-08'  
+2017-08-08 14:00:34 UPDATE SQL : UPDATE balances SET closingBalance = '144130739' WHERE  branchId = '5' AND accountId = '16' AND date = '2017-08-08' 
+2017-08-08 14:00:34 Balance Update Status 2:1
+ 2017-08-08 14:00:34 Balance Update Params :
+Branch Id : 6
+Account ID : 20
+Amount : 0
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '20'  
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '20' AND date = '2017-08-08'  
+2017-08-08 14:00:34 UPDATE SQL : UPDATE balances SET closingBalance = '3260000' WHERE  branchId = '6' AND accountId = '20' AND date = '2017-08-08' 
+2017-08-08 14:00:34 Balance Update Status 2:1
+ 2017-08-08 14:00:34 Balance Update Params :
+Branch Id : 6
+Account ID : 21
+Amount : 0
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '21'  
+2017-08-08 14:00:34 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '21' AND date = '2017-08-08'  
+2017-08-08 14:00:34 UPDATE SQL : UPDATE balances SET closingBalance = '1882409' WHERE  branchId = '6' AND accountId = '21' AND date = '2017-08-08' 
+2017-08-08 14:00:35 Balance Update Status 2:1
+ 2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 6
+Account ID : 22
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '22'  
+2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 6
+Account ID : 23
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '23'  
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '23' AND date = '2017-08-08'  
+2017-08-08 14:00:35 UPDATE SQL : UPDATE balances SET closingBalance = '95199318' WHERE  branchId = '6' AND accountId = '23' AND date = '2017-08-08' 
+2017-08-08 14:00:35 Balance Update Status 2:1
+ 2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 6
+Account ID : 24
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '24'  
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '24' AND date = '2017-08-08'  
+2017-08-08 14:00:35 UPDATE SQL : UPDATE balances SET closingBalance = '9000' WHERE  branchId = '6' AND accountId = '24' AND date = '2017-08-08' 
+2017-08-08 14:00:35 Balance Update Status 2:1
+ 2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 11
+Account ID : 27
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '11' AND accountId = '27'  
+2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 11
+Account ID : 28
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '11' AND accountId = '28'  
+2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 12
+Account ID : 33
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '33'  
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '33' AND date = '2017-08-08'  
+2017-08-08 14:00:35 UPDATE SQL : UPDATE balances SET closingBalance = '25154' WHERE  branchId = '12' AND accountId = '33' AND date = '2017-08-08' 
+2017-08-08 14:00:35 Balance Update Status 2:1
+ 2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 12
+Account ID : 36
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '36'  
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '36' AND date = '2017-08-08'  
+2017-08-08 14:00:35 UPDATE SQL : UPDATE balances SET closingBalance = '7637' WHERE  branchId = '12' AND accountId = '36' AND date = '2017-08-08' 
+2017-08-08 14:00:35 Balance Update Status 2:1
+ 2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 7
+Account ID : 37
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '7' AND accountId = '37'  
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '7' AND accountId = '37' AND date = '2017-08-08'  
+2017-08-08 14:00:35 UPDATE SQL : UPDATE balances SET closingBalance = '93158' WHERE  branchId = '7' AND accountId = '37' AND date = '2017-08-08' 
+2017-08-08 14:00:35 Balance Update Status 2:1
+ 2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 13
+Account ID : 38
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '13' AND accountId = '38'  
+2017-08-08 14:00:35 Balance Update Params :
+Branch Id : 13
+Account ID : 39
+Amount : 0
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '13' AND accountId = '39'  
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM balances WHERE  branchId = '13' AND accountId = '39' AND date = '2017-08-08'  
+2017-08-08 14:00:35 UPDATE SQL : UPDATE balances SET closingBalance = '-6840000001.9444' WHERE  branchId = '13' AND accountId = '39' AND date = '2017-08-08' 
+2017-08-08 14:00:35 Balance Update Status 2:1
+ 2017-08-08 14:00:35 SELECT SQL : SELECT * FROM currencies WHERE  active = '1'  
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM accounts WHERE  active = '1' AND type_id = '4'  
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM account_types WHERE  active = '1'  
+2017-08-08 14:00:35 SELECT SQL : SELECT * FROM user_types WHERE  active = '1'  
+2017-08-08 14:00:35 Response : {"data":{"branches":[{"id":"5","name":"KINSHASHA","countryId":"4","location":"Patrice Avenue","supervisorId":"3","createdBy":"4","ts":"2017-06-30 00:06:55","active":"1"},{"id":"6","name":"OASIS MALL","countryId":"1","location":"Yusufu Lule Rd","supervisorId":"3","createdBy":"2","ts":"2017-06-30 00:12:08","active":"1"},{"id":"7","name":"GOMA","countryId":"4","location":"Goma","supervisorId":"3","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"9","name":"MOMBASA","countryId":"2","location":"Mombasa","supervisorId":"3","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"10","name":"DUBAI","countryId":"6","location":"Dubai","supervisorId":"3","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"11","name":"CHINA","countryId":"5","location":"China","supervisorId":"3","createdBy":"3","ts":"2017-07-05 13:23:17","active":"1"},{"id":"12","name":"NAIROBI","countryId":"2","location":"Nairobi","supervisorId":"3","createdBy":"3","ts":"2017-07-06 14:12:35","active":"1"},{"id":"13","name":"KAMPALA ROAD","countryId":"1","location":"kampala road","supervisorId":"3","createdBy":"3","ts":"2017-07-06 14:12:35","active":"1"}],"countries":[{"id":"1","name":"UGANDA","createdBy":"1","ts":"2017-06-25 23:13:31","active":"1"},{"id":"2","name":"KENYA","createdBy":"1","ts":"2017-06-26 09:02:45","active":"1"},{"id":"3","name":"TZ","createdBy":"1","ts":"2017-06-28 11:11:53","active":"1"},{"id":"4","name":"CONGO","createdBy":"1","ts":"2017-06-28 11:26:11","active":"1"},{"id":"5","name":"CHINA","createdBy":"1","ts":"2017-06-28 11:30:01","active":"1"},{"id":"6","name":"UAE","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"}],"ids":[[{"id":"1","name":"Passport","createdBy":"1","ts":"2017-06-28 14:00:01","active":"1"},{"id":"2","name":"National ID","createdBy":"1","ts":"2017-06-28 14:00:01","active":"1"},{"id":"3","name":"STUDENTS ID","createdBy":"1","ts":"2017-06-28 16:21:46","active":"1"}]],"users":[{"id":"1","firstName":"You","surname":"Jinshu","email":"hudsonbogere@swipeit.co.ug","phone":"256783131266","userName":"you","branchId":"0","userTypeId":"1","password":"$2y$10$pPGbhJ1RXx\/ug.ED3LnsQuKHJTqwYsa\/iF0OqGOgsjflkHKIDTLVq","sessionId":"","ipAddress":"41.75.173.102","createdBy":null,"ts":"2017-06-23 15:08:12","active":"1"},{"id":"2","firstName":"Nansubuga","surname":"Dorothy","email":"henry@gmail.com","phone":"256752284441","userName":"dorah","branchId":"12","userTypeId":"3","password":"$2y$10$F9t92sYKf2rDJ.JzCmrrT.Jt1Ix37Fuo.uZKpXPn69dgDUTZ8xLXi","sessionId":"","ipAddress":"105.231.196.253","createdBy":"1","ts":"2017-06-26 19:11:07","active":"1"},{"id":"3","firstName":"Lydia","surname":"Amoi","email":"islam@gmail.com","phone":"256777608310","userName":"lydia","branchId":"6","userTypeId":"2","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"IjdDNE4fwui3Qjn53vHXrnamzKIGKIvn","ipAddress":"127.0.0.1","createdBy":"1","ts":"2017-06-26 19:41:01","active":"1"},{"id":"4","firstName":"Nabukera","surname":"Maria","email":"banerd@tfb.com","phone":"256774457813","userName":"maria","branchId":"5","userTypeId":"5","password":"$2y$10$wTpUE\/WJFMfQaBglrQocTO9ndV6dbxL2vzFDEJZ1hpVVp4binpXGO","sessionId":"","ipAddress":"::1","createdBy":"1","ts":"2017-06-26 23:04:07","active":"1"},{"id":"5","firstName":"Henry","surname":"Bbosa","email":null,"phone":null,"userName":"Henry","branchId":"11","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"","ipAddress":"41.210.154.223","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"6","firstName":"Edwin","surname":"Kakeeto","email":"edwin@edwin.com","phone":"0777777557","userName":"edwin","branchId":"7","userTypeId":"3","password":"$2y$10$wTpUE\/WJFMfQaBglrQocTO9ndV6dbxL2vzFDEJZ1hpVVp4binpXGO","sessionId":"KRX8Yh2iqId0EWTdOh43HSfBIE4fr5lp","ipAddress":"41.243.17.77","createdBy":"3","ts":"2017-07-10 07:37:50","active":"1"},{"id":"7","firstName":"Trish","surname":"Baby","email":"patricia@gmail.com","phone":"0777777557","userName":"trish","branchId":"13","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"hxM1lP1Vd3HEvf3x2QoqRy2njxote3kF","ipAddress":"::1","createdBy":null,"ts":null,"active":"1"},{"id":"8","firstName":"cedric","surname":"cedric","email":"cedric@gmail.com","phone":"+256754813912","userName":"cedric","branchId":"7","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"3FRemJkS0c4MdRvK14bqZtR2IZCiupvX","ipAddress":"::1","createdBy":null,"ts":null,"active":"1"},{"id":"9","firstName":"Bravia","surname":"Muzira","email":"muzira@gmail.com","phone":"+256771889211","userName":"Braviah","branchId":"6","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"CNHdx868gWwwaWl34QWYmNGxDsy1g0Dy","ipAddress":"41.210.154.223","createdBy":null,"ts":null,"active":"1"}],"accounts":[{"id":"16","name":"KINSHASHA-USD Account","branchId":"5","currency_id":"2"},{"id":"20","name":"OASIS MALL-RMB Account","branchId":"6","currency_id":"1"},{"id":"21","name":"OASIS MALL-USD Account","branchId":"6","currency_id":"2"},{"id":"22","name":"OASIS MALL-DIRHAM Account","branchId":"6","currency_id":"3"},{"id":"23","name":"OASIS MALL-UGX Account","branchId":"6","currency_id":"4"},{"id":"24","name":"OASIS MALL-KSH Account","branchId":"6","currency_id":"5"},{"id":"27","name":"CHINA-RMB Account","branchId":"11","currency_id":"1"},{"id":"28","name":"CHINA-USD Account","branchId":"11","currency_id":"2"},{"id":"33","name":"NAIROBI-USD Account","branchId":"12","currency_id":"2"},{"id":"36","name":"NAIROBI-KSH Account","branchId":"12","currency_id":"5"},{"id":"37","name":"GOMA-USD ACCOUNT","branchId":"7","currency_id":"2"},{"id":"38","name":"KAMPALA ROAD -USD ACCOUNT","branchId":"13","currency_id":"2"},{"id":"39","name":"KAMPALA ROAD- UGX ACCOUNT ","branchId":"13","currency_id":"4"}],"currencies":[{"id":"1","name":"RMB","symbol":"\u00a5","createdBy":"1","ts":"2017-06-27 22:45:12","active":"1"},{"id":"2","name":"USD","symbol":"$","createdBy":"1","ts":"2017-06-27 22:45:12","active":"1"},{"id":"3","name":"DIRHAM","symbol":"","createdBy":"1","ts":"2017-06-28 11:40:09","active":"1"},{"id":"4","name":"UGX","symbol":"\/=","createdBy":"1","ts":"2017-06-28 11:46:50","active":"1"},{"id":"5","name":"KSH","symbol":"","createdBy":"1","ts":"2017-06-28 11:46:50","active":"1"}],"superaccount":[{"id":"1","name":"RMB Account","branchId":"0","type_id":"4","currency_id":"1","balance":"0","createdBy":"1","active":"1","ts":"2017-06-27 22:45:12"}],"accountTypes":[{"id":"1","type":"Transfer","description":"","createdBy":"1","ts":"2017-06-28 14:31:12","active":"1"},{"id":"2","type":"Suspense","description":"","createdBy":"1","ts":"2017-06-28 14:31:12","active":"1"},{"id":"4","type":"Super","description":"","createdBy":"1","ts":"2017-06-28 14:31:12","active":"1"}],"userTypes":[{"id":"1","name":"E-Value Admin","level":"1","ts":"2017-06-27 22:45:12","active":"1"},{"id":"2","name":"Super User","level":"2","ts":"2017-06-27 22:45:12","active":"1"},{"id":"3","name":"Agent","level":"3","ts":"2017-06-27 22:45:12","active":"1"},{"id":"4","name":"System Admin","level":"4","ts":"2017-06-27 22:45:12","active":"1"},{"id":"5","name":"superAgent","level":"3","ts":"2017-06-27 22:45:12","active":"1"}]},"success":1}
+2017-08-08 14:00:47 ---- New Request ----
+2017-08-08 14:00:47 Controller : Transfers
+2017-08-08 14:00:47 Method : credittransferaccountAction
+2017-08-08 14:00:47 Controller File : controllers/Transfers.class.php, Exists
+2017-08-08 14:00:47 Class constructed
+2017-08-08 14:00:47 Class constructed
+2017-08-08 14:00:47 Credit Transfer Account Params:
+Amount : 5000
+Exchange Rate : 320
+AccountId : 24
+Amount After Xchange : 1600000
+Password : 
+Userid : 3
+SessionID : ztc3IWoMugwQ6bHS2zBbFfIOkgv375yF
+2017-08-08 14:00:47 SELECT SQL : SELECT * FROM users WHERE  id = '3'  
+2017-08-08 14:00:47 SELECT SQL : SELECT * FROM settings WHERE  name = 'RNBAccount'  
+2017-08-08 14:00:47 INSERT SQL : INSERT INTO account_transfers  (ts,type,amount,createdBy,toId,fromId,userId,exchangeRate,amountAfterXchange)  VALUES(NOW(),'transfer','5000','3','24','1','3','320','1600000')
+2017-08-08 14:00:47 SELECT SQL : SELECT * FROM accounts WHERE  id = '24'  
+2017-08-08 14:00:47 Balance Update Params :
+Branch Id : 6
+Account ID : 24
+Amount : 1600000
+2017-08-08 14:00:47 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '24'  
+2017-08-08 14:00:47 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '24' AND date = '2017-08-08'  
+2017-08-08 14:00:47 UPDATE SQL : UPDATE balances SET closingBalance = '1609000' WHERE  branchId = '6' AND accountId = '24' AND date = '2017-08-08' 
+2017-08-08 14:00:47 Balance Update Status 2:1
+ 2017-08-08 14:00:47 INSERT SQL : INSERT INTO branch_transaction  (ts,amount,exchange_rate,account_id,amount_from_rate,user_id,branch_id,transaction_type_id)  VALUES(NOW(),'5000','320','24','1600000','3','','8')
+2017-08-08 14:00:47 Response : {"success":1,"data":"Your request was processed successfully"}
+2017-08-08 14:34:38 ---- New Request ----
+2017-08-08 14:34:38 Controller : Exchange
+2017-08-08 14:34:38 Method : createexchangeAction
+2017-08-08 14:34:38 Controller File : controllers/Exchange.class.php, Exists
+2017-08-08 14:34:38 Class constructed
+2017-08-08 14:34:38 Class constructed
+2017-08-08 14:34:38 Exchange Params:
+FromCurrency : 3
+ToCurrency : 2
+AmountBe4 : 3000
+Amount After : 83.33333333333333
+Exhange Rate : 36
+UserID : 3
+Session ID : IjdDNE4fwui3Qjn53vHXrnamzKIGKIvn
+2017-08-08 14:34:38 SELECT SQL : SELECT * FROM users WHERE  id = '3'  
+2017-08-08 14:34:38 INSERT SQL : INSERT INTO currency_exchange  (ts,fromCurrencyId,toCurrencyId,AmountBeforeXchange,amountAfterXchange,exhangeRate,userId,branchId)  VALUES(NOW(),'3','2','3000','83.33333333333333','36','3','6')
+2017-08-08 14:34:38 SELECT SQL : SELECT id FROM accounts WHERE  branchId = '6' AND currency_id = '3'  
+2017-08-08 14:34:38 SELECT SQL : SELECT * FROM settings WHERE  name = 'SuspenseAccount'  
+2017-08-08 14:34:38 INSERT SQL : INSERT INTO account_transfers  (ts,type,amount,amountB4Xchange,amountAfterXchange,fromId,toId,userId,createdBy,transferRef)  VALUES(NOW(),'transfer','3000','3000','3000','22','25','3','3','ex4')
+2017-08-08 14:34:39 Balance Update Params :
+Branch Id : 6
+Account ID : 22
+Amount : -3000
+2017-08-08 14:34:39 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '22'  
+2017-08-08 14:34:39 INSERT SQL : INSERT INTO balances  (ts,branchId,accountId,openingBalance,closingBalance,date)  VALUES(NOW(),'6','22','-3000','-3000','2017-08-08')
+2017-08-08 14:34:39 Balance Create Insert ID :47
+ 2017-08-08 14:34:39 Balance Update Params :
+Branch Id : 0
+Account ID : 25
+Amount : 3000
+2017-08-08 14:34:39 SELECT SQL : SELECT * FROM balances WHERE  branchId = '0' AND accountId = '25'  
+2017-08-08 14:34:39 SELECT SQL : SELECT * FROM balances WHERE  branchId = '0' AND accountId = '25' AND date = '2017-08-08'  
+2017-08-08 14:34:39 SELECT SQL : SELECT closingBalance FROM balances WHERE  branchId = '0' AND accountId = '25'  ORDER BY date DESC LIMIT 1
+2017-08-08 14:34:39 INSERT SQL : INSERT INTO balances  (ts,branchId,accountId,openingBalance,closingBalance,date)  VALUES(NOW(),'0','25','11294218','11294218','2017-08-08')
+2017-08-08 14:34:39 Balance Create Insert ID Today 2:48
+ 2017-08-08 14:34:39 SELECT SQL : SELECT id FROM accounts WHERE  branchId = '6' AND currency_id = '2'  
+2017-08-08 14:34:39 INSERT SQL : INSERT INTO account_transfers  (ts,type,amount,amountB4Xchange,amountAfterXchange,fromId,toId,userId,createdBy,transferRef)  VALUES(NOW(),'transfer','83.33333333333333','83.33333333333333','83.33333333333333','25','21','3','3','ex4')
+2017-08-08 14:34:39 Balance Update Params :
+Branch Id : 6
+Account ID : 21
+Amount : 83
+2017-08-08 14:34:39 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '21'  
+2017-08-08 14:34:39 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '21' AND date = '2017-08-08'  
+2017-08-08 14:34:39 UPDATE SQL : UPDATE balances SET closingBalance = '1882492' WHERE  branchId = '6' AND accountId = '21' AND date = '2017-08-08' 
+2017-08-08 14:34:39 Balance Update Status 2:1
+ 2017-08-08 14:34:39 Balance Update Params :
+Branch Id : 0
+Account ID : 25
+Amount : -83
+2017-08-08 14:34:39 SELECT SQL : SELECT * FROM balances WHERE  branchId = '0' AND accountId = '25'  
+2017-08-08 14:34:39 SELECT SQL : SELECT * FROM balances WHERE  branchId = '0' AND accountId = '25' AND date = '2017-08-08'  
+2017-08-08 14:34:39 UPDATE SQL : UPDATE balances SET closingBalance = '11294135' WHERE  branchId = '0' AND accountId = '25' AND date = '2017-08-08' 
+2017-08-08 14:34:39 Balance Update Status 2:1
+ 2017-08-08 14:34:39 INSERT SQL : INSERT INTO branch_transaction  (ts,from_currency_id,to_currency_id,amount,exchange_rate,amount_from_rate,user_id,branch_id,transaction_type_id)  VALUES(NOW(),'3','2','3000','36','83.33333333333333','3','6','7')
+2017-08-08 14:34:39 Response : {"success":1,"data":"Your request was successfully processed."}
+2017-08-08 14:36:20 ---- New Request ----
+2017-08-08 14:36:20 Controller : Transfers
+2017-08-08 14:36:20 Method : credittransferaccountAction
+2017-08-08 14:36:20 Controller File : controllers/Transfers.class.php, Exists
+2017-08-08 14:36:20 Class constructed
+2017-08-08 14:36:20 Class constructed
+2017-08-08 14:36:20 Credit Transfer Account Params:
+Amount : 7000
+Exchange Rate : 34
+AccountId : 24
+Amount After Xchange : 238000
+Password : 
+Userid : 3
+SessionID : ztc3IWoMugwQ6bHS2zBbFfIOkgv375yF
+2017-08-08 14:36:20 SELECT SQL : SELECT * FROM users WHERE  id = '3'  
+2017-08-08 14:36:20 SELECT SQL : SELECT * FROM settings WHERE  name = 'RNBAccount'  
+2017-08-08 14:36:20 INSERT SQL : INSERT INTO account_transfers  (ts,type,amount,createdBy,toId,fromId,userId,exchangeRate,amountAfterXchange)  VALUES(NOW(),'transfer','7000','3','24','1','3','34','238000')
+2017-08-08 14:36:20 SELECT SQL : SELECT * FROM accounts WHERE  id = '24'  
+2017-08-08 14:36:20 Balance Update Params :
+Branch Id : 6
+Account ID : 24
+Amount : 238000
+2017-08-08 14:36:20 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '24'  
+2017-08-08 14:36:20 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '24' AND date = '2017-08-08'  
+2017-08-08 14:36:20 UPDATE SQL : UPDATE balances SET closingBalance = '1847000' WHERE  branchId = '6' AND accountId = '24' AND date = '2017-08-08' 
+2017-08-08 14:36:20 Balance Update Status 2:1
+ 2017-08-08 14:36:20 INSERT SQL : INSERT INTO branch_transaction  (ts,amount,exchange_rate,account_id,amount_from_rate,user_id,branch_id,transaction_type_id)  VALUES(NOW(),'7000','34','24','238000','3','','8')
+2017-08-08 14:36:20 Response : {"success":1,"data":"Your request was processed successfully"}
+2017-08-08 14:39:03 ---- New Request ----
+2017-08-08 14:39:03 Controller : Users
+2017-08-08 14:39:03 Method : logoutAction
+2017-08-08 14:39:03 Controller File : controllers/Users.class.php, Exists
+2017-08-08 14:39:03 Class constructed
+2017-08-08 14:39:03 Logout Params ;Session ID :ztc3IWoMugwQ6bHS2zBbFfIOkgv375yF\User ID : 3
+2017-08-08 14:39:03 UPDATE SQL : UPDATE users SET sessionId = '',ipAddress = '127.0.0.1' WHERE  id = '3' 
+2017-08-08 14:39:03 Response : {"success":1}
+2017-08-08 14:39:12 ---- New Request ----
+2017-08-08 14:39:12 Controller : Users
+2017-08-08 14:39:12 Method : loginAction
+2017-08-08 14:39:12 Controller File : controllers/Users.class.php, Exists
+2017-08-08 14:39:12 Class constructed
+2017-08-08 14:39:12 Login Params ;Username :maria
+Password : ******
+2017-08-08 14:39:12 SELECT SQL : SELECT id,firstName,surname,userName,userTypeId,sessionId,password,active,branchId FROM users WHERE  userName = 'maria'  
+2017-08-08 14:39:12 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-08-08 14:39:12 UPDATE SQL : UPDATE users SET sessionId = 'HReGzjNmSskxZqhJ35ID7sXMOxAGyde8',ipAddress = '127.0.0.1' WHERE  id = '4' 
+2017-08-08 14:39:12 Response : {"success":1,"data":{"id":"4","firstName":"Nabukera","surname":"Maria","userName":"maria","userTypeId":"5","sessionId":"HReGzjNmSskxZqhJ35ID7sXMOxAGyde8","branchId":"5","branchName":"KINSHASHA"}}
+2017-08-08 14:39:12 ---- New Request ----
+2017-08-08 14:39:12 Controller : Users
+2017-08-08 14:39:12 Method : formsdetailsAction
+2017-08-08 14:39:12 Controller File : controllers/Users.class.php, Exists
+2017-08-08 14:39:12 Class constructed
+2017-08-08 14:39:12 Details Params :
+SessionID :HReGzjNmSskxZqhJ35ID7sXMOxAGyde8
+User ID : 4
+2017-08-08 14:39:12 SELECT SQL : SELECT * FROM branches WHERE  active = '1'  
+2017-08-08 14:39:12 SELECT SQL : SELECT * FROM countries WHERE  active = '1'  
+2017-08-08 14:39:12 SELECT SQL : SELECT * FROM identification WHERE  active = '1'  
+2017-08-08 14:39:12 SELECT SQL : SELECT * FROM users WHERE  active = '1'  
+2017-08-08 14:39:12 SELECT SQL : SELECT id,name,branchId,currency_id FROM accounts WHERE  active = '1' AND type_id = '1'  
+2017-08-08 14:39:12 Balance Update Params :
+Branch Id : 5
+Account ID : 16
+Amount : 0
+2017-08-08 14:39:12 SELECT SQL : SELECT * FROM balances WHERE  branchId = '5' AND accountId = '16'  
+2017-08-08 14:39:12 SELECT SQL : SELECT * FROM balances WHERE  branchId = '5' AND accountId = '16' AND date = '2017-08-08'  
+2017-08-08 14:39:12 UPDATE SQL : UPDATE balances SET closingBalance = '144130739' WHERE  branchId = '5' AND accountId = '16' AND date = '2017-08-08' 
+2017-08-08 14:39:13 Balance Update Status 2:1
+ 2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 6
+Account ID : 20
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '20'  
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '20' AND date = '2017-08-08'  
+2017-08-08 14:39:13 UPDATE SQL : UPDATE balances SET closingBalance = '3260000' WHERE  branchId = '6' AND accountId = '20' AND date = '2017-08-08' 
+2017-08-08 14:39:13 Balance Update Status 2:1
+ 2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 6
+Account ID : 21
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '21'  
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '21' AND date = '2017-08-08'  
+2017-08-08 14:39:13 UPDATE SQL : UPDATE balances SET closingBalance = '1882492' WHERE  branchId = '6' AND accountId = '21' AND date = '2017-08-08' 
+2017-08-08 14:39:13 Balance Update Status 2:1
+ 2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 6
+Account ID : 22
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '22'  
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '22' AND date = '2017-08-08'  
+2017-08-08 14:39:13 UPDATE SQL : UPDATE balances SET closingBalance = '-3000' WHERE  branchId = '6' AND accountId = '22' AND date = '2017-08-08' 
+2017-08-08 14:39:13 Balance Update Status 2:1
+ 2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 6
+Account ID : 23
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '23'  
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '23' AND date = '2017-08-08'  
+2017-08-08 14:39:13 UPDATE SQL : UPDATE balances SET closingBalance = '95199318' WHERE  branchId = '6' AND accountId = '23' AND date = '2017-08-08' 
+2017-08-08 14:39:13 Balance Update Status 2:1
+ 2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 6
+Account ID : 24
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '24'  
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '24' AND date = '2017-08-08'  
+2017-08-08 14:39:13 UPDATE SQL : UPDATE balances SET closingBalance = '1847000' WHERE  branchId = '6' AND accountId = '24' AND date = '2017-08-08' 
+2017-08-08 14:39:13 Balance Update Status 2:1
+ 2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 11
+Account ID : 27
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '11' AND accountId = '27'  
+2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 11
+Account ID : 28
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '11' AND accountId = '28'  
+2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 12
+Account ID : 33
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '33'  
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '33' AND date = '2017-08-08'  
+2017-08-08 14:39:13 UPDATE SQL : UPDATE balances SET closingBalance = '25154' WHERE  branchId = '12' AND accountId = '33' AND date = '2017-08-08' 
+2017-08-08 14:39:13 Balance Update Status 2:1
+ 2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 12
+Account ID : 36
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '36'  
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '36' AND date = '2017-08-08'  
+2017-08-08 14:39:13 UPDATE SQL : UPDATE balances SET closingBalance = '7637' WHERE  branchId = '12' AND accountId = '36' AND date = '2017-08-08' 
+2017-08-08 14:39:13 Balance Update Status 2:1
+ 2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 7
+Account ID : 37
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '7' AND accountId = '37'  
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '7' AND accountId = '37' AND date = '2017-08-08'  
+2017-08-08 14:39:13 UPDATE SQL : UPDATE balances SET closingBalance = '93158' WHERE  branchId = '7' AND accountId = '37' AND date = '2017-08-08' 
+2017-08-08 14:39:13 Balance Update Status 2:1
+ 2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 13
+Account ID : 38
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '13' AND accountId = '38'  
+2017-08-08 14:39:13 Balance Update Params :
+Branch Id : 13
+Account ID : 39
+Amount : 0
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '13' AND accountId = '39'  
+2017-08-08 14:39:13 SELECT SQL : SELECT * FROM balances WHERE  branchId = '13' AND accountId = '39' AND date = '2017-08-08'  
+2017-08-08 14:39:13 UPDATE SQL : UPDATE balances SET closingBalance = '-6840000001.9444' WHERE  branchId = '13' AND accountId = '39' AND date = '2017-08-08' 
+2017-08-08 14:39:14 Balance Update Status 2:1
+ 2017-08-08 14:39:14 SELECT SQL : SELECT * FROM currencies WHERE  active = '1'  
+2017-08-08 14:39:14 SELECT SQL : SELECT * FROM accounts WHERE  active = '1' AND type_id = '4'  
+2017-08-08 14:39:14 SELECT SQL : SELECT * FROM account_types WHERE  active = '1'  
+2017-08-08 14:39:14 SELECT SQL : SELECT * FROM user_types WHERE  active = '1'  
+2017-08-08 14:39:14 Response : {"data":{"branches":[{"id":"5","name":"KINSHASHA","countryId":"4","location":"Patrice Avenue","supervisorId":"3","createdBy":"4","ts":"2017-06-30 00:06:55","active":"1"},{"id":"6","name":"OASIS MALL","countryId":"1","location":"Yusufu Lule Rd","supervisorId":"3","createdBy":"2","ts":"2017-06-30 00:12:08","active":"1"},{"id":"7","name":"GOMA","countryId":"4","location":"Goma","supervisorId":"3","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"9","name":"MOMBASA","countryId":"2","location":"Mombasa","supervisorId":"3","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"10","name":"DUBAI","countryId":"6","location":"Dubai","supervisorId":"3","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"11","name":"CHINA","countryId":"5","location":"China","supervisorId":"3","createdBy":"3","ts":"2017-07-05 13:23:17","active":"1"},{"id":"12","name":"NAIROBI","countryId":"2","location":"Nairobi","supervisorId":"3","createdBy":"3","ts":"2017-07-06 14:12:35","active":"1"},{"id":"13","name":"KAMPALA ROAD","countryId":"1","location":"kampala road","supervisorId":"3","createdBy":"3","ts":"2017-07-06 14:12:35","active":"1"}],"countries":[{"id":"1","name":"UGANDA","createdBy":"1","ts":"2017-06-25 23:13:31","active":"1"},{"id":"2","name":"KENYA","createdBy":"1","ts":"2017-06-26 09:02:45","active":"1"},{"id":"3","name":"TZ","createdBy":"1","ts":"2017-06-28 11:11:53","active":"1"},{"id":"4","name":"CONGO","createdBy":"1","ts":"2017-06-28 11:26:11","active":"1"},{"id":"5","name":"CHINA","createdBy":"1","ts":"2017-06-28 11:30:01","active":"1"},{"id":"6","name":"UAE","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"}],"ids":[[{"id":"1","name":"Passport","createdBy":"1","ts":"2017-06-28 14:00:01","active":"1"},{"id":"2","name":"National ID","createdBy":"1","ts":"2017-06-28 14:00:01","active":"1"},{"id":"3","name":"STUDENTS ID","createdBy":"1","ts":"2017-06-28 16:21:46","active":"1"}]],"users":[{"id":"1","firstName":"You","surname":"Jinshu","email":"hudsonbogere@swipeit.co.ug","phone":"256783131266","userName":"you","branchId":"0","userTypeId":"1","password":"$2y$10$pPGbhJ1RXx\/ug.ED3LnsQuKHJTqwYsa\/iF0OqGOgsjflkHKIDTLVq","sessionId":"","ipAddress":"41.75.173.102","createdBy":null,"ts":"2017-06-23 15:08:12","active":"1"},{"id":"2","firstName":"Nansubuga","surname":"Dorothy","email":"henry@gmail.com","phone":"256752284441","userName":"dorah","branchId":"12","userTypeId":"3","password":"$2y$10$F9t92sYKf2rDJ.JzCmrrT.Jt1Ix37Fuo.uZKpXPn69dgDUTZ8xLXi","sessionId":"","ipAddress":"105.231.196.253","createdBy":"1","ts":"2017-06-26 19:11:07","active":"1"},{"id":"3","firstName":"Lydia","surname":"Amoi","email":"islam@gmail.com","phone":"256777608310","userName":"lydia","branchId":"6","userTypeId":"2","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"","ipAddress":"127.0.0.1","createdBy":"1","ts":"2017-06-26 19:41:01","active":"1"},{"id":"4","firstName":"Nabukera","surname":"Maria","email":"banerd@tfb.com","phone":"256774457813","userName":"maria","branchId":"5","userTypeId":"5","password":"$2y$10$wTpUE\/WJFMfQaBglrQocTO9ndV6dbxL2vzFDEJZ1hpVVp4binpXGO","sessionId":"HReGzjNmSskxZqhJ35ID7sXMOxAGyde8","ipAddress":"127.0.0.1","createdBy":"1","ts":"2017-06-26 23:04:07","active":"1"},{"id":"5","firstName":"Henry","surname":"Bbosa","email":null,"phone":null,"userName":"Henry","branchId":"11","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"","ipAddress":"41.210.154.223","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"6","firstName":"Edwin","surname":"Kakeeto","email":"edwin@edwin.com","phone":"0777777557","userName":"edwin","branchId":"7","userTypeId":"3","password":"$2y$10$wTpUE\/WJFMfQaBglrQocTO9ndV6dbxL2vzFDEJZ1hpVVp4binpXGO","sessionId":"KRX8Yh2iqId0EWTdOh43HSfBIE4fr5lp","ipAddress":"41.243.17.77","createdBy":"3","ts":"2017-07-10 07:37:50","active":"1"},{"id":"7","firstName":"Trish","surname":"Baby","email":"patricia@gmail.com","phone":"0777777557","userName":"trish","branchId":"13","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"hxM1lP1Vd3HEvf3x2QoqRy2njxote3kF","ipAddress":"::1","createdBy":null,"ts":null,"active":"1"},{"id":"8","firstName":"cedric","surname":"cedric","email":"cedric@gmail.com","phone":"+256754813912","userName":"cedric","branchId":"7","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"3FRemJkS0c4MdRvK14bqZtR2IZCiupvX","ipAddress":"::1","createdBy":null,"ts":null,"active":"1"},{"id":"9","firstName":"Bravia","surname":"Muzira","email":"muzira@gmail.com","phone":"+256771889211","userName":"Braviah","branchId":"6","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"CNHdx868gWwwaWl34QWYmNGxDsy1g0Dy","ipAddress":"41.210.154.223","createdBy":null,"ts":null,"active":"1"}],"accounts":[{"id":"16","name":"KINSHASHA-USD Account","branchId":"5","currency_id":"2"},{"id":"20","name":"OASIS MALL-RMB Account","branchId":"6","currency_id":"1"},{"id":"21","name":"OASIS MALL-USD Account","branchId":"6","currency_id":"2"},{"id":"22","name":"OASIS MALL-DIRHAM Account","branchId":"6","currency_id":"3"},{"id":"23","name":"OASIS MALL-UGX Account","branchId":"6","currency_id":"4"},{"id":"24","name":"OASIS MALL-KSH Account","branchId":"6","currency_id":"5"},{"id":"27","name":"CHINA-RMB Account","branchId":"11","currency_id":"1"},{"id":"28","name":"CHINA-USD Account","branchId":"11","currency_id":"2"},{"id":"33","name":"NAIROBI-USD Account","branchId":"12","currency_id":"2"},{"id":"36","name":"NAIROBI-KSH Account","branchId":"12","currency_id":"5"},{"id":"37","name":"GOMA-USD ACCOUNT","branchId":"7","currency_id":"2"},{"id":"38","name":"KAMPALA ROAD -USD ACCOUNT","branchId":"13","currency_id":"2"},{"id":"39","name":"KAMPALA ROAD- UGX ACCOUNT ","branchId":"13","currency_id":"4"}],"currencies":[{"id":"1","name":"RMB","symbol":"\u00a5","createdBy":"1","ts":"2017-06-27 22:45:12","active":"1"},{"id":"2","name":"USD","symbol":"$","createdBy":"1","ts":"2017-06-27 22:45:12","active":"1"},{"id":"3","name":"DIRHAM","symbol":"","createdBy":"1","ts":"2017-06-28 11:40:09","active":"1"},{"id":"4","name":"UGX","symbol":"\/=","createdBy":"1","ts":"2017-06-28 11:46:50","active":"1"},{"id":"5","name":"KSH","symbol":"","createdBy":"1","ts":"2017-06-28 11:46:50","active":"1"}],"superaccount":[{"id":"1","name":"RMB Account","branchId":"0","type_id":"4","currency_id":"1","balance":"0","createdBy":"1","active":"1","ts":"2017-06-27 22:45:12"}],"accountTypes":[{"id":"1","type":"Transfer","description":"","createdBy":"1","ts":"2017-06-28 14:31:12","active":"1"},{"id":"2","type":"Suspense","description":"","createdBy":"1","ts":"2017-06-28 14:31:12","active":"1"},{"id":"4","type":"Super","description":"","createdBy":"1","ts":"2017-06-28 14:31:12","active":"1"}],"userTypes":[{"id":"1","name":"E-Value Admin","level":"1","ts":"2017-06-27 22:45:12","active":"1"},{"id":"2","name":"Super User","level":"2","ts":"2017-06-27 22:45:12","active":"1"},{"id":"3","name":"Agent","level":"3","ts":"2017-06-27 22:45:12","active":"1"},{"id":"4","name":"System Admin","level":"4","ts":"2017-06-27 22:45:12","active":"1"},{"id":"5","name":"superAgent","level":"3","ts":"2017-06-27 22:45:12","active":"1"}]},"success":1}
+2017-08-08 14:39:27 ---- New Request ----
+2017-08-08 14:39:27 Controller : Transfers
+2017-08-08 14:39:27 Method : sendmoneyAction
+2017-08-08 14:39:27 Controller File : controllers/Transfers.class.php, Exists
+2017-08-08 14:39:27 Class constructed
+2017-08-08 14:39:27 Class constructed
+2017-08-08 14:39:27 Send Money Params:
+Amount : 7000
+Charge : 0
+FromAccountId : 16
+ToAccountId : 37
+Password : 
+Userid : 4
+SessionID : HReGzjNmSskxZqhJ35ID7sXMOxAGyde8
+2017-08-08 14:39:27 SELECT SQL : SELECT * FROM accounts WHERE  id = '16'  
+2017-08-08 14:39:27 SELECT SQL : SELECT * FROM accounts WHERE  id = '37'  
+2017-08-08 14:39:27 INSERT SQL : INSERT INTO account_transfers  (ts,type,amount,createdBy,toId,fromId,userId,charge)  VALUES(NOW(),'transfer','7000','4','37','16','4','0')
+2017-08-08 14:39:27 Balance Update Params :
+Branch Id : 7
+Account ID : 37
+Amount : 7000
+2017-08-08 14:39:27 SELECT SQL : SELECT * FROM balances WHERE  branchId = '7' AND accountId = '37'  
+2017-08-08 14:39:27 SELECT SQL : SELECT * FROM balances WHERE  branchId = '7' AND accountId = '37' AND date = '2017-08-08'  
+2017-08-08 14:39:27 UPDATE SQL : UPDATE balances SET closingBalance = '100158' WHERE  branchId = '7' AND accountId = '37' AND date = '2017-08-08' 
+2017-08-08 14:39:27 Balance Update Status 2:1
+ 2017-08-08 14:39:27 Balance Update Params :
+Branch Id : 5
+Account ID : 16
+Amount : -7000
+2017-08-08 14:39:27 SELECT SQL : SELECT * FROM balances WHERE  branchId = '5' AND accountId = '16'  
+2017-08-08 14:39:27 SELECT SQL : SELECT * FROM balances WHERE  branchId = '5' AND accountId = '16' AND date = '2017-08-08'  
+2017-08-08 14:39:27 UPDATE SQL : UPDATE balances SET closingBalance = '144123739' WHERE  branchId = '5' AND accountId = '16' AND date = '2017-08-08' 
+2017-08-08 14:39:27 Balance Update Status 2:1
+ 2017-08-08 14:39:27 INSERT SQL : INSERT INTO branch_transaction  (ts,branch_id,transaction_type_id,amount,from_account_id,to_account_id,charge)  VALUES(NOW(),'5','5','7000','16','37','0')
+2017-08-08 14:39:27 Response : {"success":1,"data":"Your request was processed successfully"}
+2017-08-08 14:41:31 ---- New Request ----
+2017-08-08 14:41:31 Controller : Transfers
+2017-08-08 14:41:31 Method : createexpenseAction
+2017-08-08 14:41:31 Controller File : controllers/Transfers.class.php, Exists
+2017-08-08 14:41:31 Class constructed
+2017-08-08 14:41:31 Class constructed
+2017-08-08 14:41:31 UserID : 4
+SessionId : HReGzjNmSskxZqhJ35ID7sXMOxAGyde8
+Currency ID : 4
+Reason : send_to_indi
+Amount : 5000
+2017-08-08 14:41:31 SELECT SQL : SELECT sessionId,branchId FROM users WHERE  id = '4'  
+2017-08-08 14:41:31 INSERT SQL : INSERT INTO expenses  (ts,amount,currencyId,description,createdBy,branchId)  VALUES(NOW(),'5000','4','send_to_indi','4','5')
+2017-08-08 14:41:31 SELECT SQL : SELECT id FROM accounts WHERE  branchId = '5' AND currency_id = '4'  
+2017-08-08 14:41:31 INSERT SQL : INSERT INTO account_transfers  (ts,type,amount,charge,fromId,toId,transferRef,userId,amountAfterXchange,amountB4Xchange)  VALUES(NOW(),'transfer','5000','0','','0','0','4','5000','5000')
+2017-08-08 14:41:31 Balance Update Params :
+Branch Id : 5
+Account ID : 
+Amount : -5000
+2017-08-08 14:41:31 SELECT SQL : SELECT * FROM balances WHERE  branchId = '5' AND accountId = ''  
+2017-08-08 14:41:31 INSERT SQL : INSERT INTO balances  (ts,branchId,accountId,openingBalance,closingBalance,date)  VALUES(NOW(),'5','','-5000','-5000','2017-08-08')
+2017-08-08 14:41:31 Balance Create Insert ID :49
+ 2017-08-08 14:41:31 INSERT SQL : INSERT INTO branch_transaction  (ts,branch_id,amount,currency_id,transaction_type_id,details,user_id)  VALUES(NOW(),'5','5000','4','6','send_to_indi','4')
+2017-08-08 14:41:31 Response : {"success":1,"data":"Your request was processed successfuly"}

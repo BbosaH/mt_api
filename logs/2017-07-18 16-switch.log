@@ -1,0 +1,831 @@
+2017-07-18 16:00:51 ---- New Request ----
+2017-07-18 16:00:51 Controller : Users
+2017-07-18 16:00:51 Method : logoutAction
+2017-07-18 16:00:51 Controller File : controllers/Users.class.php, Exists
+2017-07-18 16:00:51 Class constructed
+2017-07-18 16:00:51 Logout Params ;Session ID :4lEBdd8D1NXO7mtHy6mYBMDTssVNfiKj\User ID : 5
+2017-07-18 16:00:51 UPDATE SQL : UPDATE users SET sessionId = '',ipAddress = '160.242.141.153' WHERE  id = '5' 
+2017-07-18 16:00:51 Response : {"success":1}
+2017-07-18 16:00:52 ---- New Request ----
+2017-07-18 16:00:52 Controller : Users
+2017-07-18 16:00:52 Method : logoutAction
+2017-07-18 16:00:52 Controller File : controllers/Users.class.php, Exists
+2017-07-18 16:00:52 Class constructed
+2017-07-18 16:00:52 Logout Params ;Session ID :4lEBdd8D1NXO7mtHy6mYBMDTssVNfiKj\User ID : 5
+2017-07-18 16:00:52 UPDATE SQL : UPDATE users SET sessionId = '',ipAddress = '160.242.141.153' WHERE  id = '5' 
+2017-07-18 16:00:52 Response : {"success":1}
+2017-07-18 16:01:06 ---- New Request ----
+2017-07-18 16:01:06 Controller : Users
+2017-07-18 16:01:06 Method : loginAction
+2017-07-18 16:01:06 Controller File : controllers/Users.class.php, Exists
+2017-07-18 16:01:06 Class constructed
+2017-07-18 16:01:06 Login Params ;Username :lydia
+Password : ******
+2017-07-18 16:01:06 SELECT SQL : SELECT id,firstName,surname,userName,userTypeId,sessionId,password,active,branchId FROM users WHERE  userName = 'lydia'  
+2017-07-18 16:01:06 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:01:06 UPDATE SQL : UPDATE users SET sessionId = '5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj',ipAddress = '160.242.141.153' WHERE  id = '3' 
+2017-07-18 16:01:06 Response : {"success":1,"data":{"id":"3","firstName":"Lydia","surname":"Amoi","userName":"lydia","userTypeId":"2","sessionId":"5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj","branchId":"6","branchName":"OASIS MALL"}}
+2017-07-18 16:01:07 ---- New Request ----
+2017-07-18 16:01:07 Controller : Users
+2017-07-18 16:01:07 Method : formsdetailsAction
+2017-07-18 16:01:07 Controller File : controllers/Users.class.php, Exists
+2017-07-18 16:01:07 Class constructed
+2017-07-18 16:01:07 Details Params :
+SessionID :5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+User ID : 3
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM branches WHERE  active = '1'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM countries WHERE  active = '1'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM identification WHERE  active = '1'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM users WHERE  active = '1'  
+2017-07-18 16:01:07 SELECT SQL : SELECT id,name,branchId,currency_id FROM accounts WHERE  active = '1' AND type_id = '1'  
+2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 5
+Account ID : 16
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '5' AND accountId = '16'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '5' AND accountId = '16' AND date = '2017-07-18'  
+2017-07-18 16:01:07 UPDATE SQL : UPDATE balances SET closingBalance = '271126' WHERE  branchId = '5' AND accountId = '16' AND date = '2017-07-18' 
+2017-07-18 16:01:07 Balance Update Status 2:1
+ 2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 6
+Account ID : 20
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '20'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '20' AND date = '2017-07-18'  
+2017-07-18 16:01:07 UPDATE SQL : UPDATE balances SET closingBalance = '-143976' WHERE  branchId = '6' AND accountId = '20' AND date = '2017-07-18' 
+2017-07-18 16:01:07 Balance Update Status 2:1
+ 2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 6
+Account ID : 21
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '21'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '21' AND date = '2017-07-18'  
+2017-07-18 16:01:07 UPDATE SQL : UPDATE balances SET closingBalance = '503895' WHERE  branchId = '6' AND accountId = '21' AND date = '2017-07-18' 
+2017-07-18 16:01:07 Balance Update Status 2:1
+ 2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 6
+Account ID : 22
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '22'  
+2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 6
+Account ID : 23
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '23'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '23' AND date = '2017-07-18'  
+2017-07-18 16:01:07 UPDATE SQL : UPDATE balances SET closingBalance = '639622518' WHERE  branchId = '6' AND accountId = '23' AND date = '2017-07-18' 
+2017-07-18 16:01:07 Balance Update Status 2:1
+ 2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 6
+Account ID : 24
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '6' AND accountId = '24'  
+2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 11
+Account ID : 27
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '11' AND accountId = '27'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '11' AND accountId = '27' AND date = '2017-07-18'  
+2017-07-18 16:01:07 UPDATE SQL : UPDATE balances SET closingBalance = '-1134575.92' WHERE  branchId = '11' AND accountId = '27' AND date = '2017-07-18' 
+2017-07-18 16:01:07 Balance Update Status 2:1
+ 2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 11
+Account ID : 28
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '11' AND accountId = '28'  
+2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 12
+Account ID : 33
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '33'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '33' AND date = '2017-07-18'  
+2017-07-18 16:01:07 UPDATE SQL : UPDATE balances SET closingBalance = '79' WHERE  branchId = '12' AND accountId = '33' AND date = '2017-07-18' 
+2017-07-18 16:01:07 Balance Update Status 2:1
+ 2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 12
+Account ID : 36
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '36'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '12' AND accountId = '36' AND date = '2017-07-18'  
+2017-07-18 16:01:07 UPDATE SQL : UPDATE balances SET closingBalance = '1803448' WHERE  branchId = '12' AND accountId = '36' AND date = '2017-07-18' 
+2017-07-18 16:01:07 Balance Update Status 2:1
+ 2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 7
+Account ID : 37
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '7' AND accountId = '37'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '7' AND accountId = '37' AND date = '2017-07-18'  
+2017-07-18 16:01:07 UPDATE SQL : UPDATE balances SET closingBalance = '70921' WHERE  branchId = '7' AND accountId = '37' AND date = '2017-07-18' 
+2017-07-18 16:01:07 Balance Update Status 2:1
+ 2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 13
+Account ID : 38
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '13' AND accountId = '38'  
+2017-07-18 16:01:07 Balance Update Params :
+Branch Id : 13
+Account ID : 39
+Amount : 0
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM balances WHERE  branchId = '13' AND accountId = '39'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM currencies WHERE  active = '1'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM accounts WHERE  active = '1' AND type_id = '4'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM account_types WHERE  active = '1'  
+2017-07-18 16:01:07 SELECT SQL : SELECT * FROM user_types WHERE  active = '1'  
+2017-07-18 16:01:07 Response : {"data":{"branches":[{"id":"5","name":"KINSHASHA","countryId":"4","location":"Patrice Avenue","supervisorId":"3","createdBy":"4","ts":"2017-06-30 00:06:55","active":"1"},{"id":"6","name":"OASIS MALL","countryId":"1","location":"Yusufu Lule Rd","supervisorId":"3","createdBy":"2","ts":"2017-06-30 00:12:08","active":"1"},{"id":"7","name":"GOMA","countryId":"4","location":"Goma","supervisorId":"3","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"9","name":"MOMBASA","countryId":"2","location":"Mombasa","supervisorId":"3","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"10","name":"DUBAI","countryId":"6","location":"Dubai","supervisorId":"3","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"11","name":"CHINA","countryId":"5","location":"China","supervisorId":"3","createdBy":"3","ts":"2017-07-05 13:23:17","active":"1"},{"id":"12","name":"NAIROBI","countryId":"2","location":"Nairobi","supervisorId":"3","createdBy":"3","ts":"2017-07-06 14:12:35","active":"1"},{"id":"13","name":"KAMPALA ROAD","countryId":"1","location":"kampala road","supervisorId":"3","createdBy":"3","ts":"2017-07-06 14:12:35","active":"1"}],"countries":[{"id":"1","name":"UGANDA","createdBy":"1","ts":"2017-06-25 23:13:31","active":"1"},{"id":"2","name":"KENYA","createdBy":"1","ts":"2017-06-26 09:02:45","active":"1"},{"id":"3","name":"TZ","createdBy":"1","ts":"2017-06-28 11:11:53","active":"1"},{"id":"4","name":"CONGO","createdBy":"1","ts":"2017-06-28 11:26:11","active":"1"},{"id":"5","name":"CHINA","createdBy":"1","ts":"2017-06-28 11:30:01","active":"1"},{"id":"6","name":"UAE","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"}],"ids":[[{"id":"1","name":"Passport","createdBy":"1","ts":"2017-06-28 14:00:01","active":"1"},{"id":"2","name":"National ID","createdBy":"1","ts":"2017-06-28 14:00:01","active":"1"},{"id":"3","name":"STUDENTS ID","createdBy":"1","ts":"2017-06-28 16:21:46","active":"1"}]],"users":[{"id":"1","firstName":"You","surname":"Jinshu","email":"hudsonbogere@swipeit.co.ug","phone":"256783131266","userName":"you","branchId":"0","userTypeId":"1","password":"$2y$10$pPGbhJ1RXx\/ug.ED3LnsQuKHJTqwYsa\/iF0OqGOgsjflkHKIDTLVq","sessionId":"KSTms8GEe36Gy41kXds63LMk2kJjROlO","ipAddress":"41.210.145.81","createdBy":null,"ts":"2017-06-23 15:08:12","active":"1"},{"id":"2","firstName":"Nansubuga","surname":"Dorothy","email":"henry@gmail.com","phone":"256752284441","userName":"dorah","branchId":"12","userTypeId":"3","password":"$2y$10$F9t92sYKf2rDJ.JzCmrrT.Jt1Ix37Fuo.uZKpXPn69dgDUTZ8xLXi","sessionId":"gkANeuxKDILy14k3LpkYTZFLAu0OBnbz","ipAddress":"154.76.61.208","createdBy":"1","ts":"2017-06-26 19:11:07","active":"1"},{"id":"3","firstName":"Lydia","surname":"Amoi","email":"islam@gmail.com","phone":"256777608310","userName":"lydia","branchId":"6","userTypeId":"2","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj","ipAddress":"160.242.141.153","createdBy":"1","ts":"2017-06-26 19:41:01","active":"1"},{"id":"4","firstName":"Nabukera","surname":"Maria","email":"banerd@tfb.com","phone":"256774457813","userName":"maria","branchId":"5","userTypeId":"3","password":"$2y$10$wTpUE\/WJFMfQaBglrQocTO9ndV6dbxL2vzFDEJZ1hpVVp4binpXGO","sessionId":"Me1NY8UqRVXhFxi6FIgwmSbOn2XbhsqW","ipAddress":"41.243.11.95","createdBy":"1","ts":"2017-06-26 23:04:07","active":"1"},{"id":"5","firstName":"Henry","surname":"Bbosa","email":null,"phone":null,"userName":"henry","branchId":"11","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"","ipAddress":"160.242.141.153","createdBy":"1","ts":"2017-07-05 00:00:00","active":"1"},{"id":"6","firstName":"Edwin","surname":"Kakeeto","email":"edwin@edwin.com","phone":"0777777557","userName":"edwin","branchId":"7","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"","ipAddress":"160.242.142.203","createdBy":"3","ts":"2017-07-10 07:37:50","active":"1"},{"id":"7","firstName":"Trish","surname":"Baby","email":"patricia@gmail.com","phone":"0777777557","userName":"trish","branchId":"13","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"","ipAddress":"160.242.141.153","createdBy":null,"ts":null,"active":"1"},{"id":"8","firstName":"cedric","surname":"cedric","email":"cedric@gmail.com","phone":"+256754813912","userName":"cedric","branchId":"7","userTypeId":"3","password":"$2y$10$m72Zz8Z.h4\/Zp6TFDhmbXeQ79kZ7JJ2U0yLUanc0dDVxbc.5UPkRG","sessionId":"","ipAddress":"160.242.141.153","createdBy":null,"ts":null,"active":"1"}],"accounts":[{"id":"16","name":"KINSHASHA-USD Account","branchId":"5","currency_id":"2"},{"id":"20","name":"OASIS MALL-RMB Account","branchId":"6","currency_id":"1"},{"id":"21","name":"OASIS MALL-USD Account","branchId":"6","currency_id":"2"},{"id":"22","name":"OASIS MALL-DIRHAM Account","branchId":"6","currency_id":"3"},{"id":"23","name":"OASIS MALL-UGX Account","branchId":"6","currency_id":"4"},{"id":"24","name":"OASIS MALL-KSH Account","branchId":"6","currency_id":"5"},{"id":"27","name":"CHINA-RMB Account","branchId":"11","currency_id":"1"},{"id":"28","name":"CHINA-USD Account","branchId":"11","currency_id":"2"},{"id":"33","name":"NAIROBI-USD Account","branchId":"12","currency_id":"2"},{"id":"36","name":"NAIROBI-KSH Account","branchId":"12","currency_id":"5"},{"id":"37","name":"GOMA-USD ACCOUNT","branchId":"7","currency_id":"2"},{"id":"38","name":"KAMPALA ROAD -USD ACCOUNT","branchId":"13","currency_id":"2"},{"id":"39","name":"KAMPALA ROAD- UGX ACCOUNT ","branchId":"13","currency_id":"4"}],"currencies":[{"id":"1","name":"RMB","symbol":"\u00c2\u00a5","createdBy":"1","ts":"2017-06-27 22:45:12","active":"1"},{"id":"2","name":"USD","symbol":"$","createdBy":"1","ts":"2017-06-27 22:45:12","active":"1"},{"id":"3","name":"DIRHAM","symbol":"","createdBy":"1","ts":"2017-06-28 11:40:09","active":"1"},{"id":"4","name":"UGX","symbol":"\/=","createdBy":"1","ts":"2017-06-28 11:46:50","active":"1"},{"id":"5","name":"KSH","symbol":"","createdBy":"1","ts":"2017-06-28 11:46:50","active":"1"}],"superaccount":[{"id":"1","name":"RMB Account","branchId":"0","type_id":"4","currency_id":"1","balance":"0","createdBy":"1","active":"1","ts":"2017-06-27 22:45:12"}],"accountTypes":[{"id":"1","type":"Transfer","description":"","createdBy":"1","ts":"2017-06-28 14:31:12","active":"1"},{"id":"2","type":"Suspense","description":"","createdBy":"1","ts":"2017-06-28 14:31:12","active":"1"},{"id":"4","type":"Super","description":"","createdBy":"1","ts":"2017-06-28 14:31:12","active":"1"}],"userTypes":[{"id":"1","name":"E-Value Admin","level":"1","ts":"2017-06-27 22:45:12","active":"1"},{"id":"2","name":"Super User","level":"2","ts":"2017-06-27 22:45:12","active":"1"},{"id":"3","name":"Agent","level":"3","ts":"2017-06-27 22:45:12","active":"1"},{"id":"4","name":"System Admin","level":"4","ts":"2017-06-27 22:45:12","active":"1"}]},"success":1}
+2017-07-18 16:01:09 ---- New Request ----
+2017-07-18 16:01:09 Controller : Transfers
+2017-07-18 16:01:09 Method : getallaccountbalancesAction
+2017-07-18 16:01:09 Controller File : controllers/Transfers.class.php, Exists
+2017-07-18 16:01:09 Class constructed
+2017-07-18 16:01:09 Class constructed
+2017-07-18 16:01:09 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 6
+2017-07-18 16:01:09 SELECT SQL : SELECT sessionId FROM users WHERE  id = '3'  
+2017-07-18 16:01:09 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '6'  
+2017-07-18 16:01:09 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:01:09 Response : {"success":1,"data":[{"name":"OASIS MALL-RMB Account","id":"20","balance":-1414700},{"name":"OASIS MALL-USD Account","id":"21","balance":503895},{"name":"OASIS MALL-DIRHAM Account","id":"22","balance":0},{"name":"OASIS MALL-UGX Account","id":"23","balance":639622518},{"name":"OASIS MALL-KSH Account","id":"24","balance":0}],"branchName":"OASIS MALL"}
+2017-07-18 16:01:15 ---- New Request ----
+2017-07-18 16:01:15 Controller : Transfers
+2017-07-18 16:01:15 Method : getallaccountbalancesAction
+2017-07-18 16:01:15 Controller File : controllers/Transfers.class.php, Exists
+2017-07-18 16:01:15 Class constructed
+2017-07-18 16:01:15 Class constructed
+2017-07-18 16:01:15 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 5
+2017-07-18 16:01:15 SELECT SQL : SELECT sessionId FROM users WHERE  id = '3'  
+2017-07-18 16:01:15 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '5'  
+2017-07-18 16:01:15 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:01:15 Response : {"success":1,"data":[{"name":"KINSHASHA-USD Account","id":"16","balance":271126}],"branchName":"KINSHASHA"}
+2017-07-18 16:01:20 ---- New Request ----
+2017-07-18 16:01:20 Controller : Transfers
+2017-07-18 16:01:20 Method : getallaccountbalancesAction
+2017-07-18 16:01:20 Controller File : controllers/Transfers.class.php, Exists
+2017-07-18 16:01:20 Class constructed
+2017-07-18 16:01:20 Class constructed
+2017-07-18 16:01:20 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 6
+2017-07-18 16:01:20 SELECT SQL : SELECT sessionId FROM users WHERE  id = '3'  
+2017-07-18 16:01:20 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '6'  
+2017-07-18 16:01:20 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:01:20 Response : {"success":1,"data":[{"name":"OASIS MALL-RMB Account","id":"20","balance":-1414700},{"name":"OASIS MALL-USD Account","id":"21","balance":503895},{"name":"OASIS MALL-DIRHAM Account","id":"22","balance":0},{"name":"OASIS MALL-UGX Account","id":"23","balance":639622518},{"name":"OASIS MALL-KSH Account","id":"24","balance":0}],"branchName":"OASIS MALL"}
+2017-07-18 16:01:36 ---- New Request ----
+2017-07-18 16:01:36 Controller : Transfers
+2017-07-18 16:01:36 Method : getallaccountbalancesAction
+2017-07-18 16:01:36 Controller File : controllers/Transfers.class.php, Exists
+2017-07-18 16:01:36 Class constructed
+2017-07-18 16:01:36 Class constructed
+2017-07-18 16:01:36 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 13
+2017-07-18 16:01:36 SELECT SQL : SELECT sessionId FROM users WHERE  id = '3'  
+2017-07-18 16:01:36 SELECT SQL : SELECT name,id FROM accounts WHERE  active = '1' AND branchId = '13'  
+2017-07-18 16:01:36 SELECT SQL : SELECT name FROM branches WHERE  id = '13'  
+2017-07-18 16:01:36 Response : {"success":1,"data":[{"name":"KAMPALA ROAD -USD ACCOUNT","id":"38","balance":0},{"name":"KAMPALA ROAD- UGX ACCOUNT ","id":"39","balance":0}],"branchName":"KAMPALA ROAD"}
+2017-07-18 16:01:39 ---- New Request ----
+2017-07-18 16:01:39 Controller : Transfers
+2017-07-18 16:01:39 Method : getbalancesAction
+2017-07-18 16:01:39 Controller File : controllers/Transfers.class.php, Exists
+2017-07-18 16:01:39 Class constructed
+2017-07-18 16:01:39 Class constructed
+2017-07-18 16:01:39 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 
+Date : 
+2017-07-18 16:01:39 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:01:39 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-18'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '21'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '23'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '37'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '7'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '33'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '36'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '16'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '26'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '20'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '27'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM accounts WHERE  id = '25'  
+2017-07-18 16:01:39 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-18 16:01:39 Response : {"success":1,"data":[{"closingBalance":"503895","openingBalance":"204913","accountId":"21","branchId":"6","date":"2017-07-18","accountName":"OASIS MALL-USD Account","branchName":"OASIS MALL"},{"closingBalance":"639622518","openingBalance":"20422518","accountId":"23","branchId":"6","date":"2017-07-18","accountName":"OASIS MALL-UGX Account","branchName":"OASIS MALL"},{"closingBalance":"70921","openingBalance":"70921","accountId":"37","branchId":"7","date":"2017-07-18","accountName":"GOMA-USD ACCOUNT","branchName":"GOMA"},{"closingBalance":"79","openingBalance":"79","accountId":"33","branchId":"12","date":"2017-07-18","accountName":"NAIROBI-USD Account","branchName":"NAIROBI"},{"closingBalance":"1803448","openingBalance":"396748","accountId":"36","branchId":"12","date":"2017-07-18","accountName":"NAIROBI-KSH Account","branchName":"NAIROBI"},{"closingBalance":"271126","openingBalance":"263126","accountId":"16","branchId":"5","date":"2017-07-18","accountName":"KINSHASHA-USD Account","branchName":"KINSHASHA"},{"closingBalance":"0","openingBalance":"-1406700","accountId":"26","branchId":"0","date":"2017-07-18","accountName":"CHINA SUSPENSE ACCOUNT","branchName":null},{"closingBalance":"-143976","openingBalance":"-53976","accountId":"20","branchId":"6","date":"2017-07-18","accountName":"OASIS MALL-RMB Account","branchName":"OASIS MALL"},{"closingBalance":"-1134575.92","openingBalance":"-358526.4","accountId":"27","branchId":"11","date":"2017-07-18","accountName":"CHINA-RMB Account","branchName":"CHINA"},{"closingBalance":"-620090409","openingBalance":"-890409","accountId":"25","branchId":"0","date":"2017-07-18","accountName":"SUSPENSE","branchName":null}]}
+2017-07-18 16:02:01 ---- New Request ----
+2017-07-18 16:02:01 Controller : Reports
+2017-07-18 16:02:01 Method : gettransferlogsAction
+2017-07-18 16:02:01 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:02:01 Class constructed
+2017-07-18 16:02:01 Class constructed
+2017-07-18 16:02:01 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 6
+Date : 
+Account ID : 
+2017-07-18 16:02:01 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '6'  OR toBranch = '6'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '2'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '0'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '0'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '4'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-18 16:02:01 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:01 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:01 Response : {"success":1,"branchName":"OASIS MALL","data":[{"id":"16","fromBranch":"6","toBranch":"0","amount":"619200000","currency":"KSH","charge":null,"transferRef":"00602316","userIdSource":"3","userIdDestination":null,"ts":"2017-07-18 12:44:27","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"lin","senderPhone":"0776000064","senderEmail":"","receiverFname":"dorah","receiverSurname":"dorah","receiverPhone":"0776000064","receiverAccountNumber":null,"destinationCountryId":"2","fromBranchName":"OASIS MALL","toBranchName":null,"agentSource":"lydia","agentDestination":null,"destinationCountry":null},{"id":"14","fromBranch":"6","toBranch":"11","amount":"2000","currency":"RMB","charge":null,"transferRef":"00605314","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:39:31","withdrawTs":"2017-07-18 15:07:18","status":"Success","senderFname":"","senderSurname":"zhuo","senderPhone":"0776000064","senderEmail":"","receiverFname":"bin","receiverSurname":"zhuo","receiverPhone":"0776000064","receiverAccountNumber":"6217001250010608531","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"13","fromBranch":"6","toBranch":"11","amount":"9471","currency":"RMB","charge":null,"transferRef":"00605313","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:38:14","withdrawTs":"2017-07-18 15:07:56","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"dong","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6228480568065427474","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"12","fromBranch":"6","toBranch":"11","amount":"89632","currency":"RMB","charge":null,"transferRef":"00605312","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:36:33","withdrawTs":"2017-07-18 15:07:32","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"huifang","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6214660410190961","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"11","fromBranch":"6","toBranch":"11","amount":"39868","currency":"RMB","charge":null,"transferRef":"00605311","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:35:05","withdrawTs":"2017-07-18 15:07:13","status":"Success","senderFname":"","senderSurname":"LIANG","senderPhone":"0776000064","senderEmail":"","receiverFname":"BAOCHUN","receiverSurname":"LIANG","receiverPhone":"0776000064","receiverAccountNumber":"6216660500001148721","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"10","fromBranch":"6","toBranch":"11","amount":"250","currency":"RMB","charge":null,"transferRef":"00605310","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:33:06","withdrawTs":"2017-07-18 15:07:52","status":"Success","senderFname":"","senderSurname":"SSALI","senderPhone":"0776000064","senderEmail":"","receiverFname":"SSALI","receiverSurname":"STANKEY","receiverPhone":"0776000064","receiverAccountNumber":"6228480086758399173","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"9","fromBranch":"6","toBranch":"11","amount":"3360","currency":"RMB","charge":null,"transferRef":"0060539","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:31:48","withdrawTs":"2017-07-18 15:07:44","status":"Success","senderFname":"","senderSurname":"huang","senderPhone":"0776000064","senderEmail":"","receiverFname":"chaoming","receiverSurname":"huang","receiverPhone":"0776000064","receiverAccountNumber":"6228490080002287613","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"8","fromBranch":"6","toBranch":"11","amount":"10192","currency":"RMB","charge":null,"transferRef":"0060538","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:30:38","withdrawTs":"2017-07-18 15:07:24","status":"Success","senderFname":"","senderSurname":"zhuang","senderPhone":"0776000064","senderEmail":"","receiverFname":"xiaozhong","receiverSurname":"zhuang","receiverPhone":"0776000064","receiverAccountNumber":"6228480086483403878","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"7","fromBranch":"6","toBranch":"11","amount":"54700","currency":"RMB","charge":null,"transferRef":"0060037","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:29:12","withdrawTs":"2017-07-18 15:07:03","status":"Success","senderFname":"","senderSurname":"GE","senderPhone":"0776000064","senderEmail":"","receiverFname":"XIAOTIAN","receiverSurname":"GE","receiverPhone":"0776000064","receiverAccountNumber":"6217004400011836113","destinationCountryId":"0","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"6","fromBranch":"6","toBranch":"11","amount":"1479","currency":"RMB","charge":null,"transferRef":"0060036","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:27:09","withdrawTs":"2017-07-18 15:07:44","status":"Success","senderFname":"","senderSurname":"PAN","senderPhone":"0776000064","senderEmail":"","receiverFname":"HUILING","receiverSurname":"PAN","receiverPhone":"0776000064","receiverAccountNumber":"6222021207018700096","destinationCountryId":"0","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"5","fromBranch":"6","toBranch":"11","amount":"150","currency":"RMB","charge":null,"transferRef":"0060535","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:15:33","withdrawTs":"2017-07-18 15:07:25","status":"Success","senderFname":"","senderSurname":"min","senderPhone":"0776000064","senderEmail":"","receiverFname":"jiafeng","receiverSurname":"min","receiverPhone":"0776000064","receiverAccountNumber":"6217007100007398543","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"4","fromBranch":"6","toBranch":"11","amount":"35000","currency":"RMB","charge":null,"transferRef":"0060534","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:09:44","withdrawTs":"2017-07-18 15:07:35","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"yin","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6222020302067039099","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"3","fromBranch":"6","toBranch":"11","amount":"52880","currency":"RMB","charge":null,"transferRef":"0060533","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:04:35","withdrawTs":"2017-07-18 14:07:09","status":"Success","senderFname":"","senderSurname":"JAMIL","senderPhone":"0776000064","senderEmail":"","receiverFname":"GUANQUAN","receiverSurname":"LUO","receiverPhone":"0776000064","receiverAccountNumber":"6228490388002001672","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"2","fromBranch":"5","toBranch":"6","amount":"8000","currency":"RMB","charge":"0.015","transferRef":"0050542","userIdSource":"4","userIdDestination":"3","ts":"2017-07-18 10:54:08","withdrawTs":"2017-07-18 14:07:54","status":"Success","senderFname":"","senderSurname":"Xiao Kai Ping","senderPhone":"090458006","senderEmail":"","receiverFname":"Xiao Yan","receiverSurname":"Hu","receiverPhone":"","receiverAccountNumber":"6217863100006345068","destinationCountryId":"5","fromBranchName":"KINSHASHA","toBranchName":"OASIS MALL","agentSource":"maria","agentDestination":"lydia","destinationCountry":null},{"id":"1","fromBranch":"12","toBranch":"6","amount":"1406700","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":"3","ts":"2017-07-18 10:19:47","withdrawTs":"2017-07-18 14:07:35","status":"Success","senderFname":"","senderSurname":"Jiang","senderPhone":"+254791293969","senderEmail":"","receiverFname":"Cai","receiverSurname":"Wei","receiverPhone":"+254791293969","receiverAccountNumber":"6212260200082315918","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":"OASIS MALL","agentSource":"dorah","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:02:12 ---- New Request ----
+2017-07-18 16:02:12 Controller : Reports
+2017-07-18 16:02:12 Method : gettransferlogsAction
+2017-07-18 16:02:12 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:02:12 Class constructed
+2017-07-18 16:02:12 Class constructed
+2017-07-18 16:02:12 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 5
+Date : 
+Account ID : 
+2017-07-18 16:02:12 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:02:12 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '5'  OR toBranch = '5'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:02:12 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:02:12 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:12 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:12 SELECT SQL : SELECT userName FROM users WHERE  id = '4'  
+2017-07-18 16:02:12 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:12 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:12 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:02:12 Response : {"success":1,"branchName":"KINSHASHA","data":[{"id":"2","fromBranch":"5","toBranch":"6","amount":"8000","currency":"RMB","charge":"0.015","transferRef":"0050542","userIdSource":"4","userIdDestination":"3","ts":"2017-07-18 10:54:08","withdrawTs":"2017-07-18 14:07:54","status":"Success","senderFname":"","senderSurname":"Xiao Kai Ping","senderPhone":"090458006","senderEmail":"","receiverFname":"Xiao Yan","receiverSurname":"Hu","receiverPhone":"","receiverAccountNumber":"6217863100006345068","destinationCountryId":"5","fromBranchName":"KINSHASHA","toBranchName":"OASIS MALL","agentSource":"maria","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:02:23 ---- New Request ----
+2017-07-18 16:02:23 Controller : Reports
+2017-07-18 16:02:23 Method : gettransferlogsAction
+2017-07-18 16:02:23 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:02:23 Class constructed
+2017-07-18 16:02:23 Class constructed
+2017-07-18 16:02:23 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 12
+Date : 
+Account ID : 
+2017-07-18 16:02:23 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:02:23 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '12'  OR toBranch = '12'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:02:23 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:02:23 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:02:23 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:02:23 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-18 16:02:23 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:02:23 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:02:23 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:02:23 Response : {"success":1,"branchName":"NAIROBI","data":[{"id":"1","fromBranch":"12","toBranch":"6","amount":"1406700","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":"3","ts":"2017-07-18 10:19:47","withdrawTs":"2017-07-18 14:07:35","status":"Success","senderFname":"","senderSurname":"Jiang","senderPhone":"+254791293969","senderEmail":"","receiverFname":"Cai","receiverSurname":"Wei","receiverPhone":"+254791293969","receiverAccountNumber":"6212260200082315918","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":"OASIS MALL","agentSource":"dorah","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:02:50 ---- New Request ----
+2017-07-18 16:02:50 Controller : Reports
+2017-07-18 16:02:50 Method : gettransferlogsAction
+2017-07-18 16:02:50 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:02:50 Class constructed
+2017-07-18 16:02:50 Class constructed
+2017-07-18 16:02:50 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 13
+Date : 
+Account ID : 
+2017-07-18 16:02:50 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:02:50 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '13'  OR toBranch = '13'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:02:50 SELECT SQL : SELECT name FROM branches WHERE  id = '13'  
+2017-07-18 16:02:50 Response : {"success":1,"branchName":"KAMPALA ROAD","data":[]}
+2017-07-18 16:02:56 ---- New Request ----
+2017-07-18 16:02:56 Controller : Reports
+2017-07-18 16:02:56 Method : gettransferlogsAction
+2017-07-18 16:02:56 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:02:56 Class constructed
+2017-07-18 16:02:56 Class constructed
+2017-07-18 16:02:56 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 7
+Date : 
+Account ID : 
+2017-07-18 16:02:56 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:02:56 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '7'  OR toBranch = '7'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:02:56 SELECT SQL : SELECT name FROM branches WHERE  id = '7'  
+2017-07-18 16:02:56 Response : {"success":1,"branchName":"GOMA","data":[]}
+2017-07-18 16:03:00 ---- New Request ----
+2017-07-18 16:03:00 Controller : Reports
+2017-07-18 16:03:00 Method : gettransferlogsAction
+2017-07-18 16:03:00 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:03:00 Class constructed
+2017-07-18 16:03:00 Class constructed
+2017-07-18 16:03:00 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 5
+Date : 
+Account ID : 
+2017-07-18 16:03:00 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:03:00 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '5'  OR toBranch = '5'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:03:00 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:03:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:00 SELECT SQL : SELECT userName FROM users WHERE  id = '4'  
+2017-07-18 16:03:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:00 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:03:00 Response : {"success":1,"branchName":"KINSHASHA","data":[{"id":"2","fromBranch":"5","toBranch":"6","amount":"8000","currency":"RMB","charge":"0.015","transferRef":"0050542","userIdSource":"4","userIdDestination":"3","ts":"2017-07-18 10:54:08","withdrawTs":"2017-07-18 14:07:54","status":"Success","senderFname":"","senderSurname":"Xiao Kai Ping","senderPhone":"090458006","senderEmail":"","receiverFname":"Xiao Yan","receiverSurname":"Hu","receiverPhone":"","receiverAccountNumber":"6217863100006345068","destinationCountryId":"5","fromBranchName":"KINSHASHA","toBranchName":"OASIS MALL","agentSource":"maria","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:03:07 ---- New Request ----
+2017-07-18 16:03:07 Controller : Reports
+2017-07-18 16:03:07 Method : gettransferlogsAction
+2017-07-18 16:03:07 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:03:07 Class constructed
+2017-07-18 16:03:07 Class constructed
+2017-07-18 16:03:07 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 6
+Date : 
+Account ID : 
+2017-07-18 16:03:07 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '6'  OR toBranch = '6'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '2'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '0'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '0'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '4'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-18 16:03:07 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:03:07 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:03:07 Response : {"success":1,"branchName":"OASIS MALL","data":[{"id":"16","fromBranch":"6","toBranch":"0","amount":"619200000","currency":"KSH","charge":null,"transferRef":"00602316","userIdSource":"3","userIdDestination":null,"ts":"2017-07-18 12:44:27","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"lin","senderPhone":"0776000064","senderEmail":"","receiverFname":"dorah","receiverSurname":"dorah","receiverPhone":"0776000064","receiverAccountNumber":null,"destinationCountryId":"2","fromBranchName":"OASIS MALL","toBranchName":null,"agentSource":"lydia","agentDestination":null,"destinationCountry":null},{"id":"14","fromBranch":"6","toBranch":"11","amount":"2000","currency":"RMB","charge":null,"transferRef":"00605314","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:39:31","withdrawTs":"2017-07-18 15:07:18","status":"Success","senderFname":"","senderSurname":"zhuo","senderPhone":"0776000064","senderEmail":"","receiverFname":"bin","receiverSurname":"zhuo","receiverPhone":"0776000064","receiverAccountNumber":"6217001250010608531","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"13","fromBranch":"6","toBranch":"11","amount":"9471","currency":"RMB","charge":null,"transferRef":"00605313","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:38:14","withdrawTs":"2017-07-18 15:07:56","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"dong","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6228480568065427474","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"12","fromBranch":"6","toBranch":"11","amount":"89632","currency":"RMB","charge":null,"transferRef":"00605312","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:36:33","withdrawTs":"2017-07-18 15:07:32","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"huifang","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6214660410190961","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"11","fromBranch":"6","toBranch":"11","amount":"39868","currency":"RMB","charge":null,"transferRef":"00605311","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:35:05","withdrawTs":"2017-07-18 15:07:13","status":"Success","senderFname":"","senderSurname":"LIANG","senderPhone":"0776000064","senderEmail":"","receiverFname":"BAOCHUN","receiverSurname":"LIANG","receiverPhone":"0776000064","receiverAccountNumber":"6216660500001148721","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"10","fromBranch":"6","toBranch":"11","amount":"250","currency":"RMB","charge":null,"transferRef":"00605310","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:33:06","withdrawTs":"2017-07-18 15:07:52","status":"Success","senderFname":"","senderSurname":"SSALI","senderPhone":"0776000064","senderEmail":"","receiverFname":"SSALI","receiverSurname":"STANKEY","receiverPhone":"0776000064","receiverAccountNumber":"6228480086758399173","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"9","fromBranch":"6","toBranch":"11","amount":"3360","currency":"RMB","charge":null,"transferRef":"0060539","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:31:48","withdrawTs":"2017-07-18 15:07:44","status":"Success","senderFname":"","senderSurname":"huang","senderPhone":"0776000064","senderEmail":"","receiverFname":"chaoming","receiverSurname":"huang","receiverPhone":"0776000064","receiverAccountNumber":"6228490080002287613","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"8","fromBranch":"6","toBranch":"11","amount":"10192","currency":"RMB","charge":null,"transferRef":"0060538","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:30:38","withdrawTs":"2017-07-18 15:07:24","status":"Success","senderFname":"","senderSurname":"zhuang","senderPhone":"0776000064","senderEmail":"","receiverFname":"xiaozhong","receiverSurname":"zhuang","receiverPhone":"0776000064","receiverAccountNumber":"6228480086483403878","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"7","fromBranch":"6","toBranch":"11","amount":"54700","currency":"RMB","charge":null,"transferRef":"0060037","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:29:12","withdrawTs":"2017-07-18 15:07:03","status":"Success","senderFname":"","senderSurname":"GE","senderPhone":"0776000064","senderEmail":"","receiverFname":"XIAOTIAN","receiverSurname":"GE","receiverPhone":"0776000064","receiverAccountNumber":"6217004400011836113","destinationCountryId":"0","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"6","fromBranch":"6","toBranch":"11","amount":"1479","currency":"RMB","charge":null,"transferRef":"0060036","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:27:09","withdrawTs":"2017-07-18 15:07:44","status":"Success","senderFname":"","senderSurname":"PAN","senderPhone":"0776000064","senderEmail":"","receiverFname":"HUILING","receiverSurname":"PAN","receiverPhone":"0776000064","receiverAccountNumber":"6222021207018700096","destinationCountryId":"0","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"5","fromBranch":"6","toBranch":"11","amount":"150","currency":"RMB","charge":null,"transferRef":"0060535","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:15:33","withdrawTs":"2017-07-18 15:07:25","status":"Success","senderFname":"","senderSurname":"min","senderPhone":"0776000064","senderEmail":"","receiverFname":"jiafeng","receiverSurname":"min","receiverPhone":"0776000064","receiverAccountNumber":"6217007100007398543","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"4","fromBranch":"6","toBranch":"11","amount":"35000","currency":"RMB","charge":null,"transferRef":"0060534","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:09:44","withdrawTs":"2017-07-18 15:07:35","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"yin","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6222020302067039099","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"3","fromBranch":"6","toBranch":"11","amount":"52880","currency":"RMB","charge":null,"transferRef":"0060533","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:04:35","withdrawTs":"2017-07-18 14:07:09","status":"Success","senderFname":"","senderSurname":"JAMIL","senderPhone":"0776000064","senderEmail":"","receiverFname":"GUANQUAN","receiverSurname":"LUO","receiverPhone":"0776000064","receiverAccountNumber":"6228490388002001672","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"2","fromBranch":"5","toBranch":"6","amount":"8000","currency":"RMB","charge":"0.015","transferRef":"0050542","userIdSource":"4","userIdDestination":"3","ts":"2017-07-18 10:54:08","withdrawTs":"2017-07-18 14:07:54","status":"Success","senderFname":"","senderSurname":"Xiao Kai Ping","senderPhone":"090458006","senderEmail":"","receiverFname":"Xiao Yan","receiverSurname":"Hu","receiverPhone":"","receiverAccountNumber":"6217863100006345068","destinationCountryId":"5","fromBranchName":"KINSHASHA","toBranchName":"OASIS MALL","agentSource":"maria","agentDestination":"lydia","destinationCountry":null},{"id":"1","fromBranch":"12","toBranch":"6","amount":"1406700","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":"3","ts":"2017-07-18 10:19:47","withdrawTs":"2017-07-18 14:07:35","status":"Success","senderFname":"","senderSurname":"Jiang","senderPhone":"+254791293969","senderEmail":"","receiverFname":"Cai","receiverSurname":"Wei","receiverPhone":"+254791293969","receiverAccountNumber":"6212260200082315918","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":"OASIS MALL","agentSource":"dorah","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:04:23 ---- New Request ----
+2017-07-18 16:04:23 Controller : Reports
+2017-07-18 16:04:23 Method : gettransferlogsAction
+2017-07-18 16:04:23 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:04:23 Class constructed
+2017-07-18 16:04:23 Class constructed
+2017-07-18 16:04:23 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 7
+Date : 
+Account ID : 
+2017-07-18 16:04:23 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:04:23 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '7'  OR toBranch = '7'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:04:23 SELECT SQL : SELECT name FROM branches WHERE  id = '7'  
+2017-07-18 16:04:23 Response : {"success":1,"branchName":"GOMA","data":[]}
+2017-07-18 16:04:28 ---- New Request ----
+2017-07-18 16:04:28 Controller : Reports
+2017-07-18 16:04:28 Method : gettransferlogsAction
+2017-07-18 16:04:28 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:04:28 Class constructed
+2017-07-18 16:04:28 Class constructed
+2017-07-18 16:04:28 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 12
+Date : 
+Account ID : 
+2017-07-18 16:04:28 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:04:28 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '12'  OR toBranch = '12'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:04:28 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:04:28 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:28 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:28 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-18 16:04:28 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:28 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:28 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:04:28 Response : {"success":1,"branchName":"NAIROBI","data":[{"id":"1","fromBranch":"12","toBranch":"6","amount":"1406700","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":"3","ts":"2017-07-18 10:19:47","withdrawTs":"2017-07-18 14:07:35","status":"Success","senderFname":"","senderSurname":"Jiang","senderPhone":"+254791293969","senderEmail":"","receiverFname":"Cai","receiverSurname":"Wei","receiverPhone":"+254791293969","receiverAccountNumber":"6212260200082315918","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":"OASIS MALL","agentSource":"dorah","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:04:47 ---- New Request ----
+2017-07-18 16:04:47 Controller : Reports
+2017-07-18 16:04:47 Method : gettransferlogsAction
+2017-07-18 16:04:47 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:04:47 Class constructed
+2017-07-18 16:04:47 Class constructed
+2017-07-18 16:04:47 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 6
+Date : 
+Account ID : 
+2017-07-18 16:04:47 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '6'  OR toBranch = '6'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '2'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '0'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '0'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '4'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-18 16:04:47 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:47 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:47 Response : {"success":1,"branchName":"OASIS MALL","data":[{"id":"16","fromBranch":"6","toBranch":"0","amount":"619200000","currency":"KSH","charge":null,"transferRef":"00602316","userIdSource":"3","userIdDestination":null,"ts":"2017-07-18 12:44:27","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"lin","senderPhone":"0776000064","senderEmail":"","receiverFname":"dorah","receiverSurname":"dorah","receiverPhone":"0776000064","receiverAccountNumber":null,"destinationCountryId":"2","fromBranchName":"OASIS MALL","toBranchName":null,"agentSource":"lydia","agentDestination":null,"destinationCountry":null},{"id":"14","fromBranch":"6","toBranch":"11","amount":"2000","currency":"RMB","charge":null,"transferRef":"00605314","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:39:31","withdrawTs":"2017-07-18 15:07:18","status":"Success","senderFname":"","senderSurname":"zhuo","senderPhone":"0776000064","senderEmail":"","receiverFname":"bin","receiverSurname":"zhuo","receiverPhone":"0776000064","receiverAccountNumber":"6217001250010608531","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"13","fromBranch":"6","toBranch":"11","amount":"9471","currency":"RMB","charge":null,"transferRef":"00605313","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:38:14","withdrawTs":"2017-07-18 15:07:56","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"dong","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6228480568065427474","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"12","fromBranch":"6","toBranch":"11","amount":"89632","currency":"RMB","charge":null,"transferRef":"00605312","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:36:33","withdrawTs":"2017-07-18 15:07:32","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"huifang","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6214660410190961","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"11","fromBranch":"6","toBranch":"11","amount":"39868","currency":"RMB","charge":null,"transferRef":"00605311","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:35:05","withdrawTs":"2017-07-18 15:07:13","status":"Success","senderFname":"","senderSurname":"LIANG","senderPhone":"0776000064","senderEmail":"","receiverFname":"BAOCHUN","receiverSurname":"LIANG","receiverPhone":"0776000064","receiverAccountNumber":"6216660500001148721","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"10","fromBranch":"6","toBranch":"11","amount":"250","currency":"RMB","charge":null,"transferRef":"00605310","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:33:06","withdrawTs":"2017-07-18 15:07:52","status":"Success","senderFname":"","senderSurname":"SSALI","senderPhone":"0776000064","senderEmail":"","receiverFname":"SSALI","receiverSurname":"STANKEY","receiverPhone":"0776000064","receiverAccountNumber":"6228480086758399173","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"9","fromBranch":"6","toBranch":"11","amount":"3360","currency":"RMB","charge":null,"transferRef":"0060539","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:31:48","withdrawTs":"2017-07-18 15:07:44","status":"Success","senderFname":"","senderSurname":"huang","senderPhone":"0776000064","senderEmail":"","receiverFname":"chaoming","receiverSurname":"huang","receiverPhone":"0776000064","receiverAccountNumber":"6228490080002287613","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"8","fromBranch":"6","toBranch":"11","amount":"10192","currency":"RMB","charge":null,"transferRef":"0060538","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:30:38","withdrawTs":"2017-07-18 15:07:24","status":"Success","senderFname":"","senderSurname":"zhuang","senderPhone":"0776000064","senderEmail":"","receiverFname":"xiaozhong","receiverSurname":"zhuang","receiverPhone":"0776000064","receiverAccountNumber":"6228480086483403878","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"7","fromBranch":"6","toBranch":"11","amount":"54700","currency":"RMB","charge":null,"transferRef":"0060037","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:29:12","withdrawTs":"2017-07-18 15:07:03","status":"Success","senderFname":"","senderSurname":"GE","senderPhone":"0776000064","senderEmail":"","receiverFname":"XIAOTIAN","receiverSurname":"GE","receiverPhone":"0776000064","receiverAccountNumber":"6217004400011836113","destinationCountryId":"0","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"6","fromBranch":"6","toBranch":"11","amount":"1479","currency":"RMB","charge":null,"transferRef":"0060036","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:27:09","withdrawTs":"2017-07-18 15:07:44","status":"Success","senderFname":"","senderSurname":"PAN","senderPhone":"0776000064","senderEmail":"","receiverFname":"HUILING","receiverSurname":"PAN","receiverPhone":"0776000064","receiverAccountNumber":"6222021207018700096","destinationCountryId":"0","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"5","fromBranch":"6","toBranch":"11","amount":"150","currency":"RMB","charge":null,"transferRef":"0060535","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:15:33","withdrawTs":"2017-07-18 15:07:25","status":"Success","senderFname":"","senderSurname":"min","senderPhone":"0776000064","senderEmail":"","receiverFname":"jiafeng","receiverSurname":"min","receiverPhone":"0776000064","receiverAccountNumber":"6217007100007398543","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"4","fromBranch":"6","toBranch":"11","amount":"35000","currency":"RMB","charge":null,"transferRef":"0060534","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:09:44","withdrawTs":"2017-07-18 15:07:35","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"yin","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6222020302067039099","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"3","fromBranch":"6","toBranch":"11","amount":"52880","currency":"RMB","charge":null,"transferRef":"0060533","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:04:35","withdrawTs":"2017-07-18 14:07:09","status":"Success","senderFname":"","senderSurname":"JAMIL","senderPhone":"0776000064","senderEmail":"","receiverFname":"GUANQUAN","receiverSurname":"LUO","receiverPhone":"0776000064","receiverAccountNumber":"6228490388002001672","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"2","fromBranch":"5","toBranch":"6","amount":"8000","currency":"RMB","charge":"0.015","transferRef":"0050542","userIdSource":"4","userIdDestination":"3","ts":"2017-07-18 10:54:08","withdrawTs":"2017-07-18 14:07:54","status":"Success","senderFname":"","senderSurname":"Xiao Kai Ping","senderPhone":"090458006","senderEmail":"","receiverFname":"Xiao Yan","receiverSurname":"Hu","receiverPhone":"","receiverAccountNumber":"6217863100006345068","destinationCountryId":"5","fromBranchName":"KINSHASHA","toBranchName":"OASIS MALL","agentSource":"maria","agentDestination":"lydia","destinationCountry":null},{"id":"1","fromBranch":"12","toBranch":"6","amount":"1406700","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":"3","ts":"2017-07-18 10:19:47","withdrawTs":"2017-07-18 14:07:35","status":"Success","senderFname":"","senderSurname":"Jiang","senderPhone":"+254791293969","senderEmail":"","receiverFname":"Cai","receiverSurname":"Wei","receiverPhone":"+254791293969","receiverAccountNumber":"6212260200082315918","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":"OASIS MALL","agentSource":"dorah","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:04:54 ---- New Request ----
+2017-07-18 16:04:54 Controller : Reports
+2017-07-18 16:04:54 Method : gettransferlogsAction
+2017-07-18 16:04:54 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:04:54 Class constructed
+2017-07-18 16:04:54 Class constructed
+2017-07-18 16:04:54 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 5
+Date : 
+Account ID : 
+2017-07-18 16:04:54 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:04:54 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '5'  OR toBranch = '5'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:04:54 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:04:54 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:04:54 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:04:54 SELECT SQL : SELECT userName FROM users WHERE  id = '4'  
+2017-07-18 16:04:54 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:04:54 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:04:54 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:04:54 Response : {"success":1,"branchName":"KINSHASHA","data":[{"id":"2","fromBranch":"5","toBranch":"6","amount":"8000","currency":"RMB","charge":"0.015","transferRef":"0050542","userIdSource":"4","userIdDestination":"3","ts":"2017-07-18 10:54:08","withdrawTs":"2017-07-18 14:07:54","status":"Success","senderFname":"","senderSurname":"Xiao Kai Ping","senderPhone":"090458006","senderEmail":"","receiverFname":"Xiao Yan","receiverSurname":"Hu","receiverPhone":"","receiverAccountNumber":"6217863100006345068","destinationCountryId":"5","fromBranchName":"KINSHASHA","toBranchName":"OASIS MALL","agentSource":"maria","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:10:45 ---- New Request ----
+2017-07-18 16:10:45 Controller : Reports
+2017-07-18 16:10:45 Method : gettransferlogsAction
+2017-07-18 16:10:45 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:10:45 Class constructed
+2017-07-18 16:10:45 Class constructed
+2017-07-18 16:10:45 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 12
+Date : 
+Account ID : 
+2017-07-18 16:10:45 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:10:45 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '12'  OR toBranch = '12'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:10:45 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:10:45 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:10:45 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:10:45 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-18 16:10:45 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:10:45 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:10:45 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:10:45 Response : {"success":1,"branchName":"NAIROBI","data":[{"id":"1","fromBranch":"12","toBranch":"6","amount":"1406700","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":"3","ts":"2017-07-18 10:19:47","withdrawTs":"2017-07-18 14:07:35","status":"Success","senderFname":"","senderSurname":"Jiang","senderPhone":"+254791293969","senderEmail":"","receiverFname":"Cai","receiverSurname":"Wei","receiverPhone":"+254791293969","receiverAccountNumber":"6212260200082315918","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":"OASIS MALL","agentSource":"dorah","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:10:56 ---- New Request ----
+2017-07-18 16:10:56 Controller : Reports
+2017-07-18 16:10:56 Method : gettransferlogsAction
+2017-07-18 16:10:56 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:10:56 Class constructed
+2017-07-18 16:10:57 Class constructed
+2017-07-18 16:10:57 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 12
+Date : 
+Account ID : 
+2017-07-18 16:10:57 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:10:57 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '12'  OR toBranch = '12'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:10:57 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:10:57 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:10:57 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:10:57 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-18 16:10:57 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:10:57 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:10:57 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:10:57 Response : {"success":1,"branchName":"NAIROBI","data":[{"id":"1","fromBranch":"12","toBranch":"6","amount":"1406700","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":"3","ts":"2017-07-18 10:19:47","withdrawTs":"2017-07-18 14:07:35","status":"Success","senderFname":"","senderSurname":"Jiang","senderPhone":"+254791293969","senderEmail":"","receiverFname":"Cai","receiverSurname":"Wei","receiverPhone":"+254791293969","receiverAccountNumber":"6212260200082315918","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":"OASIS MALL","agentSource":"dorah","agentDestination":"lydia","destinationCountry":null}]}
+2017-07-18 16:11:00 ---- New Request ----
+2017-07-18 16:11:00 Controller : Reports
+2017-07-18 16:11:00 Method : gettransferlogsAction
+2017-07-18 16:11:00 Controller File : controllers/Reports.class.php, Exists
+2017-07-18 16:11:00 Class constructed
+2017-07-18 16:11:00 Class constructed
+2017-07-18 16:11:00 UserID : 3
+SessionId : 5NEnkUiyHmCfOYFtmjxXyVYJRxchinSj
+Branch ID : 6
+Date : 
+Account ID : 
+2017-07-18 16:11:00 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT id,fromBranch,toBranch,amount,currency,charge,transferRef,userIdSource,userIdDestination,ts,withdrawTs,status,senderFname,senderSurname,senderPhone,senderEmail,receiverFname,receiverSurname,receiverPhone,receiverAccountNumber,destinationCountryId FROM transfers WHERE  fromBranch = '6'  OR toBranch = '6'  ORDER BY ts DESC LIMIT 20
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '0'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = ''  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '2'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '0'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '0'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '11'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '4'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM currencies WHERE  id = '1'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '2'  
+2017-07-18 16:11:00 SELECT SQL : SELECT userName FROM users WHERE  id = '3'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM countries WHERE  id = '5'  
+2017-07-18 16:11:00 SELECT SQL : SELECT name FROM branches WHERE  id = '6'  
+2017-07-18 16:11:00 Response : {"success":1,"branchName":"OASIS MALL","data":[{"id":"16","fromBranch":"6","toBranch":"0","amount":"619200000","currency":"KSH","charge":null,"transferRef":"00602316","userIdSource":"3","userIdDestination":null,"ts":"2017-07-18 12:44:27","withdrawTs":null,"status":"Pending","senderFname":"","senderSurname":"lin","senderPhone":"0776000064","senderEmail":"","receiverFname":"dorah","receiverSurname":"dorah","receiverPhone":"0776000064","receiverAccountNumber":null,"destinationCountryId":"2","fromBranchName":"OASIS MALL","toBranchName":null,"agentSource":"lydia","agentDestination":null,"destinationCountry":null},{"id":"14","fromBranch":"6","toBranch":"11","amount":"2000","currency":"RMB","charge":null,"transferRef":"00605314","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:39:31","withdrawTs":"2017-07-18 15:07:18","status":"Success","senderFname":"","senderSurname":"zhuo","senderPhone":"0776000064","senderEmail":"","receiverFname":"bin","receiverSurname":"zhuo","receiverPhone":"0776000064","receiverAccountNumber":"6217001250010608531","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"13","fromBranch":"6","toBranch":"11","amount":"9471","currency":"RMB","charge":null,"transferRef":"00605313","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:38:14","withdrawTs":"2017-07-18 15:07:56","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"dong","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6228480568065427474","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"12","fromBranch":"6","toBranch":"11","amount":"89632","currency":"RMB","charge":null,"transferRef":"00605312","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:36:33","withdrawTs":"2017-07-18 15:07:32","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"huifang","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6214660410190961","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"11","fromBranch":"6","toBranch":"11","amount":"39868","currency":"RMB","charge":null,"transferRef":"00605311","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:35:05","withdrawTs":"2017-07-18 15:07:13","status":"Success","senderFname":"","senderSurname":"LIANG","senderPhone":"0776000064","senderEmail":"","receiverFname":"BAOCHUN","receiverSurname":"LIANG","receiverPhone":"0776000064","receiverAccountNumber":"6216660500001148721","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"10","fromBranch":"6","toBranch":"11","amount":"250","currency":"RMB","charge":null,"transferRef":"00605310","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:33:06","withdrawTs":"2017-07-18 15:07:52","status":"Success","senderFname":"","senderSurname":"SSALI","senderPhone":"0776000064","senderEmail":"","receiverFname":"SSALI","receiverSurname":"STANKEY","receiverPhone":"0776000064","receiverAccountNumber":"6228480086758399173","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"9","fromBranch":"6","toBranch":"11","amount":"3360","currency":"RMB","charge":null,"transferRef":"0060539","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:31:48","withdrawTs":"2017-07-18 15:07:44","status":"Success","senderFname":"","senderSurname":"huang","senderPhone":"0776000064","senderEmail":"","receiverFname":"chaoming","receiverSurname":"huang","receiverPhone":"0776000064","receiverAccountNumber":"6228490080002287613","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"8","fromBranch":"6","toBranch":"11","amount":"10192","currency":"RMB","charge":null,"transferRef":"0060538","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:30:38","withdrawTs":"2017-07-18 15:07:24","status":"Success","senderFname":"","senderSurname":"zhuang","senderPhone":"0776000064","senderEmail":"","receiverFname":"xiaozhong","receiverSurname":"zhuang","receiverPhone":"0776000064","receiverAccountNumber":"6228480086483403878","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"7","fromBranch":"6","toBranch":"11","amount":"54700","currency":"RMB","charge":null,"transferRef":"0060037","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:29:12","withdrawTs":"2017-07-18 15:07:03","status":"Success","senderFname":"","senderSurname":"GE","senderPhone":"0776000064","senderEmail":"","receiverFname":"XIAOTIAN","receiverSurname":"GE","receiverPhone":"0776000064","receiverAccountNumber":"6217004400011836113","destinationCountryId":"0","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"6","fromBranch":"6","toBranch":"11","amount":"1479","currency":"RMB","charge":null,"transferRef":"0060036","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:27:09","withdrawTs":"2017-07-18 15:07:44","status":"Success","senderFname":"","senderSurname":"PAN","senderPhone":"0776000064","senderEmail":"","receiverFname":"HUILING","receiverSurname":"PAN","receiverPhone":"0776000064","receiverAccountNumber":"6222021207018700096","destinationCountryId":"0","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"5","fromBranch":"6","toBranch":"11","amount":"150","currency":"RMB","charge":null,"transferRef":"0060535","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:15:33","withdrawTs":"2017-07-18 15:07:25","status":"Success","senderFname":"","senderSurname":"min","senderPhone":"0776000064","senderEmail":"","receiverFname":"jiafeng","receiverSurname":"min","receiverPhone":"0776000064","receiverAccountNumber":"6217007100007398543","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"4","fromBranch":"6","toBranch":"11","amount":"35000","currency":"RMB","charge":null,"transferRef":"0060534","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:09:44","withdrawTs":"2017-07-18 15:07:35","status":"Success","senderFname":"","senderSurname":"liu","senderPhone":"0776000064","senderEmail":"","receiverFname":"yin","receiverSurname":"liu","receiverPhone":"0776000064","receiverAccountNumber":"6222020302067039099","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"3","fromBranch":"6","toBranch":"11","amount":"52880","currency":"RMB","charge":null,"transferRef":"0060533","userIdSource":"3","userIdDestination":"5","ts":"2017-07-18 11:04:35","withdrawTs":"2017-07-18 14:07:09","status":"Success","senderFname":"","senderSurname":"JAMIL","senderPhone":"0776000064","senderEmail":"","receiverFname":"GUANQUAN","receiverSurname":"LUO","receiverPhone":"0776000064","receiverAccountNumber":"6228490388002001672","destinationCountryId":"5","fromBranchName":"OASIS MALL","toBranchName":"CHINA","agentSource":"lydia","agentDestination":"henry","destinationCountry":null},{"id":"2","fromBranch":"5","toBranch":"6","amount":"8000","currency":"RMB","charge":"0.015","transferRef":"0050542","userIdSource":"4","userIdDestination":"3","ts":"2017-07-18 10:54:08","withdrawTs":"2017-07-18 14:07:54","status":"Success","senderFname":"","senderSurname":"Xiao Kai Ping","senderPhone":"090458006","senderEmail":"","receiverFname":"Xiao Yan","receiverSurname":"Hu","receiverPhone":"","receiverAccountNumber":"6217863100006345068","destinationCountryId":"5","fromBranchName":"KINSHASHA","toBranchName":"OASIS MALL","agentSource":"maria","agentDestination":"lydia","destinationCountry":null},{"id":"1","fromBranch":"12","toBranch":"6","amount":"1406700","currency":"RMB","charge":"1700","transferRef":"0120521","userIdSource":"2","userIdDestination":"3","ts":"2017-07-18 10:19:47","withdrawTs":"2017-07-18 14:07:35","status":"Success","senderFname":"","senderSurname":"Jiang","senderPhone":"+254791293969","senderEmail":"","receiverFname":"Cai","receiverSurname":"Wei","receiverPhone":"+254791293969","receiverAccountNumber":"6212260200082315918","destinationCountryId":"5","fromBranchName":"NAIROBI","toBranchName":"OASIS MALL","agentSource":"dorah","agentDestination":"lydia","destinationCountry":null}]}

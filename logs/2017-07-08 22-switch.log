@@ -1,0 +1,30 @@
+2017-07-08 22:32:33 ---- New Request ----
+2017-07-08 22:32:33 Controller : Transfers
+2017-07-08 22:32:33 Method : getbalancesAction
+2017-07-08 22:32:33 Controller File : controllers/Transfers.class.php, Exists
+2017-07-08 22:32:34 Class constructed
+2017-07-08 22:32:34 Class constructed
+2017-07-08 22:32:34 UserID : 3
+SessionId : 2aDQGSZwGtkr7CuEXblhPArHeLGQFLNK
+Branch ID : 11
+Date : 
+2017-07-08 22:32:34 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-08 22:32:34 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-08' AND branchId = '11'  
+2017-07-08 22:32:34 Response : {"success":1,"data":[]}
+2017-07-08 22:32:36 ---- New Request ----
+2017-07-08 22:32:36 Controller : Transfers
+2017-07-08 22:32:36 Method : getbalancesAction
+2017-07-08 22:32:36 Controller File : controllers/Transfers.class.php, Exists
+2017-07-08 22:32:36 Class constructed
+2017-07-08 22:32:36 Class constructed
+2017-07-08 22:32:36 UserID : 3
+SessionId : 2aDQGSZwGtkr7CuEXblhPArHeLGQFLNK
+Branch ID : 12
+Date : 
+2017-07-08 22:32:36 SELECT SQL : SELECT sessionId,branchId,userTypeId FROM users WHERE  id = '3'  
+2017-07-08 22:32:36 SELECT SQL : SELECT closingBalance,openingBalance,accountId,branchId,date FROM balances WHERE  date = '2017-07-08' AND branchId = '12'  
+2017-07-08 22:32:36 SELECT SQL : SELECT name FROM accounts WHERE  id = '33'  
+2017-07-08 22:32:36 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-08 22:32:36 SELECT SQL : SELECT name FROM accounts WHERE  id = '36'  
+2017-07-08 22:32:36 SELECT SQL : SELECT name FROM branches WHERE  id = '12'  
+2017-07-08 22:32:36 Response : {"success":1,"data":[{"closingBalance":"6705","openingBalance":"6705","accountId":"33","branchId":"12","date":"2017-07-08","accountName":"NAIROBI-USD Account","branchName":"NAIROBI"},{"closingBalance":"1562455","openingBalance":"1562455","accountId":"36","branchId":"12","date":"2017-07-08","accountName":"NAIROBI-KSH Account","branchName":"NAIROBI"}]}

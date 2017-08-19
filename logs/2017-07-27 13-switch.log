@@ -1,0 +1,11 @@
+2017-07-27 13:01:10 ---- New Request ----
+2017-07-27 13:01:10 Controller : Users
+2017-07-27 13:01:10 Method : loginAction
+2017-07-27 13:01:10 Controller File : controllers/Users.class.php, Exists
+2017-07-27 13:01:10 Class constructed
+2017-07-27 13:01:10 Login Params ;Username :edwin
+Password : ******
+2017-07-27 13:01:10 SELECT SQL : SELECT id,firstName,surname,userName,userTypeId,sessionId,password,active,branchId FROM users WHERE  userName = 'edwin'  
+2017-07-27 13:01:10 SELECT SQL : SELECT name FROM branches WHERE  id = '7'  
+2017-07-27 13:01:10 UPDATE SQL : UPDATE users SET sessionId = 'KRX8Yh2iqId0EWTdOh43HSfBIE4fr5lp',ipAddress = '41.243.17.77' WHERE  id = '6' 
+2017-07-27 13:01:10 Response : {"success":1,"data":{"id":"6","firstName":"Edwin","surname":"Kakeeto","userName":"edwin","userTypeId":"3","sessionId":"KRX8Yh2iqId0EWTdOh43HSfBIE4fr5lp","branchId":"7","branchName":"GOMA"}}

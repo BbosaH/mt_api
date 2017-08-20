@@ -629,6 +629,7 @@ class Transfers{
 	}
 
 	public function sendmoneyAction(){
+
 		$amount = @ mysql_real_escape_string($this->_params['amount']);
 		$charge = @ mysql_real_escape_string($this->_params['charge']);
 		$fromaccountid = @ mysql_real_escape_string($this->_params['from_account_id']);
@@ -686,14 +687,15 @@ class Transfers{
 		$toBranchObj = $this->_db->doSelect('branches',array(),array("id"=>$toBranch),1,array());
 
 		$to_currency_id = $accObj->currency_id;
+		$total_amount = intval($amount) + intval($charge);
 
 		$id = $this->_db->doInsert('account_transfers',array('type'=>'transfer','amount'=>$amount,'createdBy'=>$userid,'toId'=>$toaccountid,'fromId'=>$fromaccountid,'userId'=>$userid,'charge'=>$charge));
 		if($id > 0){
 			//creadit toAccount
-			$newAmount = intval($amount)-intval($charge);
+			$newAmount = intval($amount);//-intval($charge);
 			$this->users->createBalances($toBranch,$toaccountid,$newAmount);
 			//debit from account
-			$newAmount = intval($amount)*-1;
+			$newAmount = intval($total_amount)*-1;
 			$this->users->createBalances($fromBranch,$fromaccountid,$newAmount);
 
 			$send_branch_transaction = array();

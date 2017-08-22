@@ -36,7 +36,7 @@ class Exchange{
 		$exchange_branch_transaction['user_id'] = $userid;
 		$exchange_branch_transaction['branch_id'] = $branch_id;
 		$exchange_branch_transaction['transaction_type_id'] = 7;
-		$exchange_branch_transaction['date']=date('Y-m-d', time());
+		$exchange_branch_transaction['date']=date('Y-m-d',time()- date("Z"));
 
 
 
@@ -118,3 +118,5 @@ class Exchange{
 		return $result;
 	}
 }
+
+?>

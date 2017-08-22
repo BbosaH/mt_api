@@ -90,7 +90,7 @@ class DB {
 	public function doInsert($table,$insertObj){
 		if(count($insertObj)>0){
 			$clmns = 'ts';
-			$values = "'".date('Y-m-d H:m:i')."'";
+			$values = "'".date('Y-m-d H:m:i',time()- date("Z"))."'";
 			$sql = "INSERT INTO $table ";
 			foreach($insertObj as $name=>$value){
 				$clmns .= ','.$name;

@@ -35,7 +35,7 @@ class Reports{
 		}*/
 
 		if(empty($date)){
-			$date =  date('Y-m-d');
+			$date =  date('Y-m-d',time()- date("Z"));
 		}
 
 		$where = array();//'date'=>$date
@@ -128,7 +128,7 @@ class Reports{
 		$branchid = @ mysql_real_escape_string($this->_params['branch_id']);
 		writeToLogFile("kyakabi3");
 		$sessionid = @ mysql_real_escape_string($this->_params['session_id']);
-		$date = date('Y-m-d', time());
+		$date = date('Y-m-d', time()-date("Z"));
 
 
 		writeToLogFile("UserID : $userid\nSessionId : $sessionid\nBranch ID : $branchid\n");
@@ -142,7 +142,7 @@ class Reports{
 					foreach($branches as $branch){
 
 						$first_tra_today= $this->_db->doSelect('branch_transaction',array(),array('branch_id'=>$branch->id,'date'=>$date),1,array());
-			
+
 						$second_tra_today= $this->_db->doSelect('branch_transaction',array(),array('to_branch_id'=>$branch->id,'date'=>$date),1,array());
 						$accounts= $this->_db->doSelect('accounts',array(),array('branchId'=>$branch->id,),1,array());
 						$balances = $this->_db->doSelect('balances',array(),array('branchId'=>$branch->id,'date'=>$date),1,array());
@@ -223,7 +223,7 @@ class Reports{
 		}*/
 
 		if(empty($date)){
-			$date =  date('Y-m-d');
+			$date =  date('Y-m-d',time()- date("Z"));
 		}
 
 		$where = array();//'date'=>$date

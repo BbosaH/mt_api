@@ -113,7 +113,7 @@ class Transfers{
 		$branchTransaction['charge_currency_id']=$chargecurr;
 		$branchTransaction['sender_name']=$ssurname;
 		$branchTransaction['receiver_name']=$rsurname;
-		$branchTransaction['date']= date('Y-m-d', time());
+		$branchTransaction['date']= date('Y-m-d', time()- date("Z"));
 
 		//added by henry bbosa
 		$balanceAmt = $amount;
@@ -294,11 +294,8 @@ class Transfers{
 					$dir_cashout_branch_transaction['sender_name']=$sender;
 					$dir_cashout_branch_transaction['receiver_name']=$reciever;
 					$dir_cashout_branch_transaction['account_number']=$accountNumber;
-					$dir_cashout_branch_transaction['date']=date('Y-m-d', time());
+					$dir_cashout_branch_transaction['date']=date('Y-m-d', time()- date("Z"));
 					$branch_dir_cashout_insertion = $this->_db->doInsert('branch_transaction',$dir_cashout_branch_transaction);
-
-
-
 					$result['success'] = 1;
 					$result['data'] = 'Direct transfer cashed out successfully';
 					return $result;
@@ -418,7 +415,7 @@ class Transfers{
 
 		if($tansferObj != 0){
 			$receiverIP = $this->users->get_client_ip_server();
-			$now = date('Y-m-d H:m:s');
+			$now = date('Y-m-d H:m:s',time()- date("Z"));
 
 			$completeArray = array('destinationIpAddress'=>$receiverIP,'receiverIdType'=>$idtype,'receiverId'=>$idnumber,'toBranch'=>$receiverBranchId,'Status'=>'Success','userIdDestination'=>$userid,'withdrawTs'=>$now);
 			//update transfer record
@@ -470,7 +467,7 @@ class Transfers{
 					$cashout_branch_transaction['currency_id']=$trans_Obj->currency;
 					$cashout_branch_transaction['sender_name']=$trans_Obj->senderSurname;
 					$cashout_branch_transaction['receiver_name']=$trans_Obj->receiverSurname;
-					$cashout_branch_transaction['date']= date('Y-m-d', time());
+					$cashout_branch_transaction['date']= date('Y-m-d', time()- date("Z"));
 
 
 					$branch_trans_insertion = $this->_db->doInsert('branch_transaction',$cashout_branch_transaction);
@@ -711,7 +708,7 @@ class Transfers{
 			$send_branch_transaction['from_account_id'] =$from_account_id;
 			$send_branch_transaction['to_account_id'] =$toaccountid;
 			$send_branch_transaction['charge'] =$charge;
-			$send_branch_transaction['date'] =date('Y-m-d', time());
+			$send_branch_transaction['date'] =date('Y-m-d', time()- date("Z"));
 
 			$branch_send_insertion = $this->_db->doInsert('branch_transaction',$send_branch_transaction);
 
@@ -774,7 +771,7 @@ class Transfers{
 			}
 			$expense_branch_transaction['details'] =$detail;
 			$expense_branch_transaction['user_id'] =$userid;
-			$expense_branch_transaction['date'] =date('Y-m-d', time());
+			$expense_branch_transaction['date'] =date('Y-m-d', time()- date("Z"));
 
 			$branch_expense_insertion = $this->_db->doInsert('branch_transaction',$expense_branch_transaction);
 
@@ -846,7 +843,7 @@ class Transfers{
 		}*/
 
 		if(empty($date)){
-			$date =  date('Y-m-d');
+			$date =  date('Y-m-d',time()- date("Z"));
 		}
 
 		$where = array('date'=>$date);
@@ -900,7 +897,7 @@ class Transfers{
 		}*/
 
 		if(empty($date)){
-			$date =  date('Y-m-d');
+			$date =  date('Y-m-d',time()- date("Z"));
 		}
 
 		$where = array();
